@@ -1,5 +1,5 @@
 # Takım İsmi
-Takım X
+Takım u-67
 # Ürün ile İlgili Bilgiler
 ## Takım Elemanları
 * İsim 1
