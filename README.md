@@ -2,11 +2,11 @@
 Takım u-67
 # Ürün ile İlgili Bilgiler
 ## Takım Elemanları
-* İsim 1
-* İsim 2
-* İsim 3
-* İsim 4
-* İsim 5
+* Gözde AÇA - Scrum Master
+* Ahmed Muaz Topalan - Product Owner
+* Salih Bilici - Developer
+* Meliha Dereli - Developer
+* Mehmet Beyazıt Kaygı - Developer
 ## Ürün İsmi
 **Oyun Adı**
 ## Ürün Açıklaması
