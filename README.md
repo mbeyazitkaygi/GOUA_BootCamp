@@ -2,8 +2,8 @@
 Takım u-67
 # Ürün ile İlgili Bilgiler
 ## Takım Elemanları
-* Gözde AÇA - Scrum Master
-* Ahmed Muaz Topalan - Product Owner
+* Gözde AÇA - Scrum Master / Developer
+* Ahmed Muaz Topalan - Product Owner / Developer
 * Salih Bilici - Developer
 * Meliha Dereli - Developer
 * Mehmet Beyazıt Kaygı - Developer
