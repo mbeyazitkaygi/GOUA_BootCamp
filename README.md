@@ -1,5 +1,6 @@
 # Takım İsmi
 Takım u-67
+![Uploading Logo_1.png…]()
 # Ürün ile İlgili Bilgiler
 ## Takım Elemanları
 * Gözde AÇA - Scrum Master / Developer
