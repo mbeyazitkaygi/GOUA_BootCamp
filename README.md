@@ -1,6 +1,6 @@
 ![Logo_1](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/9360e8e8-93eb-4b01-90fd-8301dce76344)
 # Takım İsmi
-Takım u-67
+Takım Unity 67
 # Ürün ile İlgili Bilgiler
 ## Takım Elemanları
 * Gözde AÇA - Scrum Master / Developer
