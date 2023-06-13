@@ -11,7 +11,7 @@ Takım Unity 67
 ## Ürün İsmi
 **Sinistower**
 ## Ürün Açıklaması
-* Oyun Adı oyunu şöyle böyle.
+* In the twist-filled "Sinistower," a captivating 3D tower defense game set in the medieval era, players take on a unique role as the villains. Defend the Sinistower, your stronghold, against waves of heroic enemies using strategically placed towers inspired by the dark side. Upgrade your towers, unlock wicked abilities, and adapt your tactics to overcome the increasingly determined waves of heroes. Immerse yourself in a visually stunning medieval world with a twist, where you get to embrace your inner villain and leave your mark in this compelling tower defense adventure.
 ## Ürün Özellikleri
 * Özellik 1
 * Özellik 2
