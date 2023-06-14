@@ -6,10 +6,19 @@ public class Turret : MonoBehaviour
 {
     private Transform target; // Taretin hedefi
 
-    [Header("Attributes")]
+    [Header("General")]
     [SerializeField] float rangeLimit = 15f; // Taretin etkili menzili
+
+    [Header("Use Bullets (default)")]
     [SerializeField] float shootSpeed = 1f;  // Ateşleme hızı
     private float shootCountdown = 0f; // Ateşleme geri sayımı
+    public GameObject bulletPre;
+
+    [Header("Use Laser")]
+    public bool useLaser = false;
+    public LineRenderer lineRenderer;
+    public ParticleSystem impactEffect;
+    public Light impactLight;
 
     [Header("Unity Setup Field")]
     public string enemyTag = "Enemy";  // Düşmanların etiketi
@@ -17,7 +26,7 @@ public class Turret : MonoBehaviour
     public Transform partToRotate; // Dönmesi gereken kısım
     public float rotateSpeed = 30f; // Dönme hızı
 
-    public GameObject bulletPre;
+
     public Transform shootPoint;
 
     void Start()
@@ -51,20 +60,64 @@ public class Turret : MonoBehaviour
     void Update()
     {
         if (target == null)
+        {
+            if (useLaser)
+            {
+                if (lineRenderer.enabled)
+                {
+                    lineRenderer.enabled = false;
+                    impactEffect.Stop();
+                    impactLight.enabled = false;
+                }
+            }
+
             return;
+        }
+
+        LockOnTarget();
+
+        if (useLaser)
+        {
+            Laser();
+        }
+        else
+        {
+            if (shootCountdown <= 0f)
+            {
+                // Ateşleme işlemi
+                Shoot();
+                shootCountdown = 1f / shootSpeed; // Geri sayımı yeniden başlat
+            }
+
+            shootCountdown -= Time.deltaTime; // Geri sayımı azalt
+        }
+
+    }
+    void LockOnTarget()
+    {
         // Taretin hedefe doğru yönelmesini sağlar
         Vector3 direc = target.position - transform.position;
         Quaternion rotationLook = Quaternion.LookRotation(direc);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, rotationLook, Time.deltaTime).eulerAngles;
         partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
-        if (shootCountdown <= 0f)
+    }
+    void Laser()
+    {
+        if (!lineRenderer.enabled)
         {
-            // Ateşleme işlemi
-            Shoot();
-            shootCountdown = 1f / shootSpeed; // Geri sayımı yeniden başlat
+            lineRenderer.enabled = true;
+            impactEffect.Play();
+            impactLight.enabled = true;
         }
+        lineRenderer.SetPosition(0, shootPoint.position);
+        lineRenderer.SetPosition(1, target.position);
 
-        shootCountdown -= Time.deltaTime; // Geri sayımı azalt
+        Vector3 dir = shootPoint.position - target.position;
+
+        impactEffect.transform.position = target.position + dir.normalized * 0.5f;
+
+        impactEffect.transform.rotation = Quaternion.LookRotation(dir);
+
 
     }
     void Shoot()

@@ -142,12 +142,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b8c445a37b473c4988e9b65715dbe96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangeLimit: 7.5
+  rangeLimit: 10
   shootSpeed: 1
+  bulletPre: {fileID: 3384662611998547778, guid: e40297a172043154d944b613d50e2a03, type: 3}
+  useLaser: 0
+  lineRenderer: {fileID: 0}
+  impactEffect: {fileID: 0}
   enemyTag: Enemy
   partToRotate: {fileID: 6728468161909514353}
   rotateSpeed: 10
-  bulletPre: {fileID: 3384662611998547778, guid: e40297a172043154d944b613d50e2a03, type: 3}
   shootPoint: {fileID: 2859672942053686433}
 --- !u!1 &6728468161909514366
 GameObject:
