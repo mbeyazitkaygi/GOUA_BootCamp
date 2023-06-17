@@ -10,6 +10,8 @@ Takım Unity 67
 * Mehmet Beyazıt Kaygı - Developer
 ## Ürün İsmi
 **Sinistower**
+## Product Backlog URL
+[Unity Team 67 Trello Backlog Board](https://trello.com/b/eoYWdnq1/gouabootcampproduct-backlog)
 ## Ürün Açıklaması
 * In the twist-filled "Sinistower," a captivating 3D tower defense game set in the medieval era, players take on a unique role as the villains. Defend the Sinistower, your stronghold, against waves of heroic enemies using strategically placed towers inspired by the dark side. Upgrade your towers, unlock wicked abilities, and adapt your tactics to overcome the increasingly determined waves of heroes. Immerse yourself in a visually stunning medieval world with a twist, where you get to embrace your inner villain and leave your mark in this compelling tower defense adventure.
 ## Ürün Özellikleri
@@ -23,5 +25,12 @@ Takım Unity 67
 * Özellik 3
 * Özellik 4
 * Özellik 5
-## Product Backlog
-**url**
+## Sprint 1
+* **Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
+* **Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+* **Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
+* [Sprint 1 Daily Scrum Chats](https://trello.com/b/eoYWdnq1/gouabootcampproduct-backlog)
+* **Sprint board update:** Sprint board screenshotları:
+* **Ürün Durumu:**
+* **Sprint Review:**
+* **Sprint Retrospective:**
