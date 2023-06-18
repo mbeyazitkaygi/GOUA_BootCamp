@@ -30,7 +30,8 @@ Team Unity 67
 * **Estimated score to be completed in the sprint:** 100 Points
 * **Logic behind point completion:** Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 * **Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
-* [Sprint 1 Daily Scrum Chats]([WhatsappExport.pdf](https://github.com/gozdeaca/GOUA_BootCamp/files/11782449/WhatsappExport.pdf))
+* [Sprint 1 Daily Scrum Chats]([WhatsappExport.pdf](https://github.com/gozdeaca/GOUA_BootCamp/files/11782461/WhatsappExport.pdf)
+)
 * **Sprint board update:** Sprint board screenshotları:
 * **Product Status:**
 * ![ss4](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/ab61a454-81c7-4790-9cda-f3920fe93521) ![ss5](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/c552626e-e5fa-4b51-9dd0-014799398ca6![ss3](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/b32a5932-16df-4d19-9787-3b4981d0acdc)
