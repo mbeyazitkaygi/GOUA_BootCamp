@@ -11,7 +11,8 @@ Team Unity 67
 ## Name of the Product
 **Sinistower**
 ## Product Backlog URL
-[Unity Team 67 Trello Backlog Board](https://trello.com/b/eoYWdnq1/gouabootcampproduct-backlog)
+* [Unity Team 67 Trello Backlog Board](https://trello.com/b/eoYWdnq1/gouabootcampproduct-backlog)
+* [Unity Team 67 Figma Board](https://www.figma.com/file/NCYuB1BaYlpFb3p5D8yhhJ/GOUA-BOOTCAMP?type=whiteboard&node-id=0%3A1&t=GqrkjPL1u8cXyyWj-1) The design process, brainstorming and meeting summaries are included.
 ## Product Description
 * In the twist-filled "Sinistower," a captivating 3D tower defense game set in the medieval era, players take on a unique role as the villains. Defend the Sinistower, your stronghold, against waves of heroic enemies using strategically placed towers inspired by the dark side. Upgrade your towers, unlock wicked abilities, and adapt your tactics to overcome the increasingly determined waves of heroes. Immerse yourself in a visually stunning medieval world with a twist, where you get to embrace your inner villain and leave your mark in this compelling tower defense adventure.
 ## Product Features
@@ -25,11 +26,11 @@ Team Unity 67
 * Özellik 3
 * Özellik 4
 * Özellik 5
-## Sprint 1
+# Sprint 1
 * **Estimated score to be completed in the sprint:** 100 Points
 * **Logic behind point completion:** Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 * **Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
-* [Sprint 1 Daily Scrum Chats](https://trello.com/b/eoYWdnq1/gouabootcampproduct-backlog)
+* [Sprint 1 Daily Scrum Chats]([WhatsappExport.pdf](https://github.com/gozdeaca/GOUA_BootCamp/files/11782449/WhatsappExport.pdf))
 * **Sprint board update:** Sprint board screenshotları:
 * **Product Status:**
 * ![ss4](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/ab61a454-81c7-4790-9cda-f3920fe93521) ![ss5](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/c552626e-e5fa-4b51-9dd0-014799398ca6![ss3](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/b32a5932-16df-4d19-9787-3b4981d0acdc)
