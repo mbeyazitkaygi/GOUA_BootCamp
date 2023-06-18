@@ -29,7 +29,7 @@ Team Unity 67
 # Sprint 1
 * **Estimated score to be completed in the sprint:** 100 Points
 * **Logic behind point completion:** In total, there will be a total of 300 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete 100 points, ensuring an equal distribution of work for each sprint.
-* **Daily Scrum:** It has been decided to hold the Daily Scrum meetings over Whatsapp for its flexibility and time efficiency. Example of Daily Scrum meeting is shared below:
+* **Daily Scrum:**  It has been decided to hold the Daily Scrum meetings over Whatsapp & Discord combined (depending on the day and availablity of the team members) for its flexibility and time efficiency. Example of Daily Scrum meeting is shared below:
 * [Sprint 1 Daily Scrum Chats]()
 * **Sprint board update:** Sprint board screenshotları:
 * **Product Status:**
