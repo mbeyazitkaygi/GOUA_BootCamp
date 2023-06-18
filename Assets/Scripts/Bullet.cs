@@ -1,17 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private Transform target; // Mermi hedefi
+    private Transform target; 
 
-    public float bulletSpeed = 70f; // Mermi hızı
-    public GameObject impactEffect; // Çarpışma efekti
-    public void Seek(Transform _target) // Hedefi ayarla
+    public float speed = 70f; 
+    public GameObject impactEffect; 
+    public void Seek(Transform _target) 
     {
         target = _target;
     }
+
     void Update()
     {
         if (target == null)
@@ -19,24 +18,24 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        // Hedefe doğru hareket et
+        
         Vector3 dir = target.position - transform.position;
-        float distanceThisFrame = bulletSpeed * Time.deltaTime;
-        // Hedefe ulaşıldığında
+        float distanceThisFrame = speed * Time.deltaTime;
+        
         if (dir.magnitude <= distanceThisFrame)
         {
-            HitTarget(); // Hedefe ulaşma işlemini gerçekleştir
+            HitTarget();
             return;
         }
-        transform.Translate(dir.normalized * distanceThisFrame, Space.World); // Mermiyi ileri doğru hareket ettir
 
+        transform.Translate(dir.normalized * distanceThisFrame, Space.World);
     }
+
     void HitTarget()
     {
+        Destroy(gameObject);
         GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation); // Çarpışma efektini oluştur
-        Destroy(effectIns, 2f); // Efekti belirli bir süre sonra yok et
-        //Destroy(target.gameObject); // Hedefi ve mermiyi yok et
-        Debug.Log("Vurdum oni"); // Hedefi vurduğunu logla
-        Destroy(gameObject); // Mermiyi yok et
+        Destroy(effectIns, 3f);
+        Destroy(target.gameObject); 
     }
 }
