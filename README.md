@@ -16,16 +16,17 @@ Team Unity 67
 ## Product Description
 * In the twist-filled "Sinistower," a captivating 3D tower defense game set in the medieval era, players take on a unique role as the villains. Defend the Sinistower, your stronghold, against waves of heroic enemies using strategically placed towers inspired by the dark side. Upgrade your towers, unlock wicked abilities, and adapt your tactics to overcome the increasingly determined waves of heroes. Immerse yourself in a visually stunning medieval world with a twist, where you get to embrace your inner villain and leave your mark in this compelling tower defense adventure.
 ## Product Features
-* Özellik 1
-* Özellik 2
-* Özellik 3
-* Özellik 4
+* Provides players with a selection of different towers, each with unique abilities and attack styles. This allows players to create diverse strategies and adapt to different enemy types.
+* Allows players to upgrade their towers over time to increase their power, range, or add special abilities. Customization options includes visual upgrades for towers.
+* Introduces various types of enemies with different strengths, weaknesses, and behaviors. Some enemies may have high health, while others may be fast or have special abilities, requiring the player to employ different tactics.
+* Creates a variety of levels with different terrains, paths, and obstacles. This adds complexity and strategic depth to the game, as players need to consider optimal tower placement and path manipulation.
+* Implements a resource system that allows players to earn currency or points by defeating enemies. These resources can be used to build or upgrade towers, unlocking new defensive options as the game progresses.
 ## Target Audience
-* Özellik 1
-* Özellik 2
-* Özellik 3
-* Özellik 4
-* Özellik 5
+* Casual Gamers
+* Strategy Enthusiasts
+* Gamers who like intellectual challenges
+* Competitive Players
+* Tower Defense Fans
 # Sprint 1
 * **Estimated score to be completed in the sprint:** 100 Points
 * **Logic behind point completion:** In total, there will be a total of 300 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete 100 points, ensuring an equal distribution of work for each sprint.
