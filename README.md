@@ -32,7 +32,7 @@ Team Unity 67
 * **Logic behind point completion:** In total, there will be a total of 300 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete 100 points, ensuring an equal distribution of work for each sprint.
 * **Daily Scrum:**  It has been decided to hold the Daily Scrum meetings over Whatsapp & Discord combined (depending on the day and availablity of the team members) for its flexibility and time efficiency. Example of Daily Scrum meeting is shared below:
 * [Sprint 1 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/11782496/WhatsappExport.pdf)
-* **Sprint board update:** Sprint board screenshotları: ![Ekran Görüntüsü (2876)](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/a62bbb3e-bba6-4072-bd0f-8a1bc84c91c9)
+* **Sprint board update:** Sprint board screenshots: ![Ekran Görüntüsü (2876)](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/a62bbb3e-bba6-4072-bd0f-8a1bc84c91c9)
 * **Product Status:**
 * ![ss4](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/ab61a454-81c7-4790-9cda-f3920fe93521) ![ss5](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/c552626e-e5fa-4b51-9dd0-014799398ca6![ss3](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/b32a5932-16df-4d19-9787-3b4981d0acdc)
 )![ss2](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/ab3c8116-7e49-437d-9c26-dc200a4ec46e)![ss3](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/443b36da-0497-49b1-bc9f-cc581c4f632c) ![ss1](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/7152148a-3a97-4ae1-a98a-3b5d81de06f2)
