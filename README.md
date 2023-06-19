@@ -32,6 +32,7 @@ Team Unity 67
 * **Logic behind point completion:** In total, there will be a total of 300 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete 100 points, ensuring an equal distribution of work for each sprint.
 * **Daily Scrum:**  It has been decided to hold the Daily Scrum meetings over Whatsapp & Discord combined (depending on the day and availability of the team members) for their flexibility and time efficiency. An example of Daily Scrum meeting is shared below:
 * [Sprint 1 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/11782522/WhatsappExport.pdf)
+* **Sprint Notes:** Point criteria are specified as tags. Each colour of the tag represents the amount of points for a task. User Story is represented by the blue tag. 
 * **Sprint board update:** Sprint board screenshots:
 ![backlog](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/bd13bf7b-e3cb-4471-bb9f-4e6a3d2a9d15)
 * **Product Status:**
