@@ -1,32 +1,29 @@
 using UnityEngine;
+public class BuildManager : MonoBehaviour {
+	public static BuildManager instance;
+	void Awake ()
+	{
+		if (instance != null)
+		{
+			Debug.LogError("More than one BuildManager in scene!");
+			return;
+		}
+		instance = this;
+	}
 
-public class BuildManager : MonoBehaviour
-{
+	public GameObject standardTurretPrefab;
+    public GameObject missileLauncherPrefab;
 
-    public static BuildManager instance;
+	private GameObject turretToBuild;
 
-    void Awake()
-    {
-        if (instance != null)
-        {
-            Debug.LogError("More than one BuildManager in scene!");
-            return;
-        }
-        instance = this;
-    }
+	public GameObject GetTurretToBuild ()
+	{
+		return turretToBuild;
+	}
 
-    public GameObject standardTurretPrefab;
-
-    void Start()
-    {
-        turretToBuild = standardTurretPrefab;
-    }
-
-    private GameObject turretToBuild;
-
-    public GameObject GetTurretToBuild()
-    {
-        return turretToBuild;
-    }
+	public void SetTurretToBuild (GameObject turret)
+	{
+		turretToBuild = turret;
+	}
 
 }
