@@ -16,8 +16,13 @@ public class WaveSpawner : MonoBehaviour
 
     private int waveIndex = 0;
 
+
     void Update()
     {
+        if (spawnPoint == null || waveCountdownText == null)//c
+        {
+            return;
+        }
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
@@ -51,6 +56,11 @@ public class WaveSpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+        if (spawnPoint == null)//c
+        {
+            // Nesne yok edildi, ilgili işlemleri yapabilirsiniz.
+            return;
+        }
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
 
     }

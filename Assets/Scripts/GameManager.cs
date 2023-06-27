@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverUI;
 
+
+
     void Start()
     {
         GameIsOver = false;
@@ -29,5 +31,6 @@ public class GameManager : MonoBehaviour
     {
         GameIsOver = true;
         gameOverUI.SetActive(true);
+
     }
 }

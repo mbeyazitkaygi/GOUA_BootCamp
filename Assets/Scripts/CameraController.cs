@@ -12,16 +12,11 @@ public class CameraController : MonoBehaviour
     public float minX = 25f;
     public float maxX = 55f;
 
-    private bool doMovement = true;
+
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            doMovement = !doMovement;
-
-        if (!doMovement)
-            return;
 
         if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - panBoarderThickness)
         {

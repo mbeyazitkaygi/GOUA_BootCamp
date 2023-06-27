@@ -27,10 +27,10 @@ public class Shop : MonoBehaviour
     }
 
     public void SelectLaserBeamer()
-	{
-		Debug.Log("Laser Beamer Selected");
-		buildManager.SelectTurretToBuild(laserBeamer);
-	}
+    {
+        Debug.Log("Laser Beamer Selected");
+        buildManager.SelectTurretToBuild(laserBeamer);
+    }
 
 
 }
