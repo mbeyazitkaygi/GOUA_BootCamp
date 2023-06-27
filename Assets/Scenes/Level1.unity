@@ -2049,7 +2049,7 @@ GameObject:
   - component: {fileID: 318281332}
   - component: {fileID: 318281331}
   m_Layer: 0
-  m_Name: Cost
+  m_Name: Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3320,7 +3320,7 @@ GameObject:
   - component: {fileID: 422567618}
   - component: {fileID: 422567617}
   m_Layer: 0
-  m_Name: UpgradeText
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6542,7 +6542,7 @@ GameObject:
   - component: {fileID: 749934048}
   - component: {fileID: 749934047}
   m_Layer: 0
-  m_Name: SellText
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7614,7 +7614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 38, y: 4}
+  m_AnchoredPosition: {x: 38, y: 2}
   m_SizeDelta: {x: 1587.8452, y: 222.5022}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &848962302
@@ -9334,17 +9334,17 @@ MonoBehaviour:
     prefab: {fileID: 8520328129226706341, guid: 76dcb14c64d477a40ac43c85ff8b2d8f, type: 3}
     cost: 100
     upgradedPrefab: {fileID: 8520328129226706341, guid: f1c278d5f06817c4fb85c6d0499dfd76, type: 3}
-    upgradeCost: 25
+    upgradeCost: 60
   missileLauncher:
     prefab: {fileID: 7575574963900651789, guid: b5c2cb402c61baa4f89ded068d8214a7, type: 3}
     cost: 250
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 50
+    upgradedPrefab: {fileID: 7575574963900651789, guid: 719ab1f6a02266e429a17cb9ea37559d, type: 3}
+    upgradeCost: 150
   laserBeamer:
     prefab: {fileID: 6195712579152141948, guid: 3b1ae38660e441342ae019193e2e2cb7, type: 3}
     cost: 350
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 60
+    upgradedPrefab: {fileID: 6195712579152141948, guid: 460119346a5025545a298f640d0f9dd5, type: 3}
+    upgradeCost: 150
 --- !u!114 &1011097479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16265,6 +16265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildEffect: {fileID: 4925133079142092755, guid: 237aa76ccf87af146874290bf795655b, type: 3}
+  sellEffect: {fileID: 5667519528311845199, guid: 1e5d573b66bb0f84aa50d378e2cc86c0, type: 3}
   nodeUI: {fileID: 1903049592}
 --- !u!114 &1755470278
 MonoBehaviour:
@@ -16297,7 +16298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00293bf2b53f704badd3fcd98c7433f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 9999
+  startMoney: 5000
   startLives: 1
 --- !u!114 &1755470280
 MonoBehaviour:
@@ -17581,6 +17582,7 @@ MonoBehaviour:
   ui: {fileID: 1579583734}
   upgradeCost: {fileID: 1976097732}
   upgradeButton: {fileID: 970370492}
+  sellAmount: {fileID: 318281331}
 --- !u!1001 &1908938289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18358,7 +18360,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2004621717}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1903049592}
+        m_TargetAssemblyTypeName: NodeUI, Assembly-CSharp
+        m_MethodName: Sell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2004621717
 MonoBehaviour:
   m_ObjectHideFlags: 0

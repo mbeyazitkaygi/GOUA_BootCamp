@@ -156,7 +156,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -454857502957749149, guid: 8fa51810cde954f44a4d02f565e7608f, type: 3}
-  - {fileID: 772359722248288438, guid: 8fa51810cde954f44a4d02f565e7608f, type: 3}
+  - {fileID: 2100000, guid: 6e5f75367240b8a4787ec7aa115009fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9954,8 +9954,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8418019662413110148, guid: 8fa51810cde954f44a4d02f565e7608f, type: 3}
-  - {fileID: 7347949212528627919, guid: 8fa51810cde954f44a4d02f565e7608f, type: 3}
+  - {fileID: 2100000, guid: 6e5f75367240b8a4787ec7aa115009fe, type: 2}
+  - {fileID: 2100000, guid: 6e5f75367240b8a4787ec7aa115009fe, type: 2}
   - {fileID: 4387638107276554849, guid: 8fa51810cde954f44a4d02f565e7608f, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -10030,6 +10030,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 0}
   fireRate: 1
   useLaser: 1
+  damageOverTime: 30
+  slowAmount: 0.5
   lineRenderer: {fileID: 3022478445913817304}
   impactEffect: {fileID: 4480463598361367609}
   impactLight: {fileID: 8725913276690889666}
