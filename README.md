@@ -40,4 +40,15 @@ Team Unity 67
 )![ss2](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/ab3c8116-7e49-437d-9c26-dc200a4ec46e)![ss3](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/443b36da-0497-49b1-bc9f-cc581c4f632c) ![ss1](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/7152148a-3a97-4ae1-a98a-3b5d81de06f2)
 * **Sprint Review:** The whole team decided on and accepted our game idea. Logo and icon work has been completed. We have started working on an early prototype of the game. We created the basics using the objects provided by Unity and designed a prototype level. Items such as platforms, enemies, spawn points, and paths have been coded. Shooting, tracking and hitscan logic behind the turrets is written, and their interaction with the enemies was optimized. An Audio Manager logic was created & implemented into the prototype scene with the Game Master object. In the next sprint, we will focus on the concept story idea, continue coding, and design the level with the assets on the stage.
 * **Sprint Retrospective:** The first meeting with the team resulted in a decision to meet during the earlier hours of the day (optimal). However, based on feedback received from team members in the following days (and their availabilities), the meeting time was adjusted to rather late hour intervals. As a result of this change in decision, the productivity of the team members and the efficiency of our meetings showed positive improvements.
-
+## Product Backlog URL
+* [Unity Team 67 Trello Backlog Board]() xx
+* [Unity Team 67 Figma Board](https://www.figma.com/file/NCYuB1BaYlpFb3p5D8yhhJ/GOUA-BOOTCAMP?type=whiteboard&node-id=0%3A1&t=GqrkjPL1u8cXyyWj-1) The design process, brainstorming and meeting summaries are included.
+# Sprint 2
+* **Estimated score to be completed in the sprint:** 100 Points
+* **Daily Scrum:**  
+* [Sprint 1 Daily Scrum Chats]() xx
+* **Sprint Notes:** 
+* **Sprint board update:** Sprint board screenshots:
+* **Product Status:** Screenshots:
+* **Sprint Review:** 
+* **Sprint Retrospective:** 
