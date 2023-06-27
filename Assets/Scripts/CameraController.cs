@@ -7,8 +7,8 @@ public class CameraController : MonoBehaviour
     public float scrollSpeed = 5f;
     public float scrminY = 10f;
     public float scrmaxY = 80f;
-    public float minZ = 10f;
-    public float maxZ = 80f;
+    public float minZ = -10f;
+    public float maxZ = 50f;
     public float minX = 25f;
     public float maxX = 55f;
 
