@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour {
 
+	//TMPro kullanma unutulmamalı!!
 	public TextMeshProUGUI roundsText;
 
 	public string menuSceneName = "MainMenu";

@@ -29,6 +29,7 @@ public class PauseMenu : MonoBehaviour {
 	public void Retry ()
 	{
 		Toggle();
+		//Bir alt satır silinirse retry button çalışmıyor.Silinmemeli!!
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
@@ -36,6 +37,7 @@ public class PauseMenu : MonoBehaviour {
 	public void Menu ()
 	{
 		Toggle();
+		//Alt satırdakiler silinirse menu button çalışmıyor.Silinmemeli!!
         Debug.Log("Go to menu.");
 		sceneFader.FadeTo(menuSceneName);
 	}
