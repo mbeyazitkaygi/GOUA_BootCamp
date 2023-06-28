@@ -3122,6 +3122,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e9b85f277910ed4a80b60c7d4fd7e6a, type: 3}
+--- !u!114 &401630619 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8280932453567449661, guid: f6e85ea0855386547932f8be53056dd0, type: 3}
+  m_PrefabInstance: {fileID: 8280932452777891694}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4e9db4b7804184187420326595b179, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &402764085 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2269176505735215343, guid: 1e9b85f277910ed4a80b60c7d4fd7e6a, type: 3}
@@ -16258,6 +16269,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundsText: {fileID: 1362860566}
+  menuSceneName: MainMenu
+  sceneFader: {fileID: 401630619}
 --- !u!95 &1638432240
 Animator:
   serializedVersion: 5
@@ -17416,6 +17429,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ui: {fileID: 2009569853}
+  menuSceneName: MainMenu
+  sceneFader: {fileID: 401630619}
 --- !u!1001 &1757755558
 PrefabInstance:
   m_ObjectHideFlags: 0
