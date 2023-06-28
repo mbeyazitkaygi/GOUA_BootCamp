@@ -65,7 +65,7 @@ public class Node : MonoBehaviour
         turret = _turret;
 
         turretBlueprint = blueprint;
-        FindObjectOfType<AudioManager>().Play("TurretPlacement");
+
 
         GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
