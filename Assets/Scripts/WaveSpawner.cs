@@ -19,6 +19,10 @@ public class WaveSpawner : MonoBehaviour
 
     private int waveIndex = 0;
 
+    void OnEnable()                         //needed for resetting enemy counter on the screen, thus game can acknowledge that there are no enemies left on screen when quitting/retrying/going to next level
+    {
+        EnemiesAlive = 0;
+    }
 
     void Update()
     {
