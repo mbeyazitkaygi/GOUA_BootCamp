@@ -2,10 +2,13 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public Transform enemyPrefab;
+
+    public static int EnemiesAlive = 0;
+    public Wave[] waves;
 
     public Transform spawnPoint;
 
@@ -19,20 +22,25 @@ public class WaveSpawner : MonoBehaviour
 
     void Update()
     {
-        if (spawnPoint == null || waveCountdownText == null)//c
+        //if (spawnPoint == null || waveCountdownText == null)//c              ****BU KOD NORMALDE YOKTU ARADA EKLENMİŞ OLABİLİR.
+        //{
+        //    return;
+        //}
+
+        if (EnemiesAlive > 0)
         {
             return;
         }
+
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
-
+            return;
         }
 
+
         countdown -= Time.deltaTime;
-
-
 
         countdown = Mathf.Clamp(countdown, 0f, Mathf.Infinity);
 
@@ -42,28 +50,33 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-
-        waveIndex++;
         PlayerStats.Rounds++;
 
+        Wave wave = waves[waveIndex];
 
-        for (int i = 0; i < waveIndex; i++)
+        for (int i = 0; i < wave.count; i++)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(0.5f);
+            SpawnEnemy(wave.enemy);
+            yield return new WaitForSeconds(1f / wave.rate);
+        }
+
+        waveIndex++;
+
+        if (waveIndex == waves.Length)
+        {
+            Debug.Log("LEVEL WON!");
+            this.enabled= false;
         }
     }
 
-    void SpawnEnemy()
+    void SpawnEnemy(GameObject enemy)
     {
-        if (spawnPoint == null)//c
-        {
-            // Nesne yok edildi, ilgili işlemleri yapabilirsiniz.
-            return;
-        }
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
-
+        //if (spawnPoint == null)//c                                          ****BU KOD NORMALDE YOKTU ARADA EKLENMİŞ OLABİLİR.
+        //{
+        //    // Nesne yok edildi, ilgili işlemleri yapabilirsiniz.
+        //    return;
+        //}
+        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+        EnemiesAlive++;
     }
-
-
 }
