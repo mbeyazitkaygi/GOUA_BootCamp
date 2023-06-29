@@ -13435,7 +13435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 20 Lives
+  m_text: -- Lives
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d4442892a0dec54e935230c583b4256, type: 2}
   m_sharedMaterial: {fileID: -2676321499202154767, guid: 4d4442892a0dec54e935230c583b4256, type: 2}
@@ -17417,7 +17417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 5000
-  startLives: 10
+  startLives: 3
 --- !u!114 &1755470280
 MonoBehaviour:
   m_ObjectHideFlags: 0
