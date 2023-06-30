@@ -17,6 +17,8 @@ public class WaveSpawner : MonoBehaviour
 
     public TMP_Text waveCountdownText;
 
+    public GameManager gameManager;
+
     private int waveIndex = 0;
 
     void OnEnable()                         //needed for resetting enemy counter on the screen, thus game can acknowledge that there are no enemies left on screen when quitting/retrying/going to next level
@@ -58,6 +60,8 @@ public class WaveSpawner : MonoBehaviour
 
         Wave wave = waves[waveIndex];
 
+        EnemiesAlive = wave.count;
+
         for (int i = 0; i < wave.count; i++)
         {
             SpawnEnemy(wave.enemy);
@@ -68,7 +72,8 @@ public class WaveSpawner : MonoBehaviour
 
         if (waveIndex == waves.Length)
         {
-            Debug.Log("LEVEL WON!");
+            gameManager.WinLevel();
+            Debug.Log("Wave cleared!");
             this.enabled= false;
         }
     }
@@ -81,6 +86,5 @@ public class WaveSpawner : MonoBehaviour
         //    return;
         //}
         Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
-        EnemiesAlive++;
     }
 }

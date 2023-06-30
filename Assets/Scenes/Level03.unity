@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1815468, g: 0.22718757, b: 0.30740595, a: 1}
+  m_IndirectSpecularColor: {r: 0.18258034, g: 0.22545315, b: 0.29070112, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17374,6 +17374,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 397026914}
   timeBetweenWaves: 5
   waveCountdownText: {fileID: 1537117659}
+  gameManager: {fileID: 1755470280}
 --- !u!4 &1755470276
 Transform:
   m_ObjectHideFlags: 0
@@ -17431,6 +17432,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 1638432237}
+  nextLevel: Level02
+  levelToUnlock: 2
+  sceneFader: {fileID: 401630619}
 --- !u!114 &1755470281
 MonoBehaviour:
   m_ObjectHideFlags: 0
