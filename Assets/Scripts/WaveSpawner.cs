@@ -38,6 +38,13 @@ public class WaveSpawner : MonoBehaviour
             return;
         }
 
+        if (waveIndex == waves.Length)
+        {
+            gameManager.WinLevel();
+            Debug.Log("Wave cleared!");
+            this.enabled = false;
+        }
+
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
@@ -69,13 +76,6 @@ public class WaveSpawner : MonoBehaviour
         }
 
         waveIndex++;
-
-        if (waveIndex == waves.Length)
-        {
-            gameManager.WinLevel();
-            Debug.Log("Wave cleared!");
-            this.enabled= false;
-        }
     }
 
     void SpawnEnemy(GameObject enemy)
