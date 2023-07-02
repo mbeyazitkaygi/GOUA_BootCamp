@@ -47,10 +47,9 @@ Team Unity 67
 * **Estimated score to be completed in the sprint:** 140 Points
 * **Daily Scrum:** We kept on communicating through Whatsapp and Discord daily as we did in our first sprint. We informed each other on both of those platforms regularly.
 * [Sprint 1 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/11931482/Whatsapp.pdf)
-
 * **Sprint Notes:** In this sprint, we both focused on completing the gameplay aspect and the general art decisions of the game. We still have small tweaks about perfecting the gameplay, but most of our work has been finished. In the last sprint, we will be completing the medieval-themed map and other themed maps and will be polishing the UI Design of the game. 
 * **Sprint board update:** Sprint board screenshots:
-![sprint_'](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/5010c037-3bd9-4d40-9670-f8d5d0088ca7)
+![sprint_'](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/84d64e22-c35a-482e-98ba-1e51cea3e6f8)
 * **Product Status:** Screenshots:
 ![GAMESS](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/a524bcb2-3b5a-4fbe-8f28-171d3a0df63b)
 ![gamesssss](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/3f133391-d3dc-4008-a382-3711d8d0ed35)
