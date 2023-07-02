@@ -44,11 +44,17 @@ Team Unity 67
 * [Unity Team 67 Trello Backlog Board]() xx
 * [Unity Team 67 Figma Board](https://www.figma.com/file/NCYuB1BaYlpFb3p5D8yhhJ/GOUA-BOOTCAMP?type=whiteboard&node-id=0%3A1&t=GqrkjPL1u8cXyyWj-1) The design process, brainstorming and meeting summaries are included.
 # Sprint 2
-* **Estimated score to be completed in the sprint:** 100 Points
-* **Daily Scrum:**  
+* **Estimated score to be completed in the sprint:** 140 Points
+* **Daily Scrum:** We kept on communicating through Whatsapp and Discord daily as we did in our first sprint. We informed each other on both of those platforms regularly.
 * [Sprint 1 Daily Scrum Chats]() xx
-* **Sprint Notes:** 
+* **Sprint Notes:** In this sprint, we both focused on completing the gameplay aspect and the general art decisions of the game. We still have small tweaks about perfecting the gameplay, but most of our work has been finished. In the last sprint, we will be completing the medieval-themed map and other themed maps and will be polishing the UI Design of the game. 
 * **Sprint board update:** Sprint board screenshots:
 * **Product Status:** Screenshots:
-* **Sprint Review:** 
-* **Sprint Retrospective:** 
+![GAMESS](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/a524bcb2-3b5a-4fbe-8f28-171d3a0df63b)
+![gamesssss](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/3f133391-d3dc-4008-a382-3711d8d0ed35)
+![image](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/eece1c0c-ad5d-459e-b67e-b93e3cd6212b)
+![iaamssage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/8f08658e-a167-4846-a2e3-f6adbe3d7cae)
+![imssage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/4f2e3150-78ad-4de5-be12-94cb4207c488)
+![issmage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/2868e5cd-5aac-446c-bc3e-6ac8c0b10780)
+* **Sprint Review:** In this sprint, we built on the main components of the game and decided on the important dynamics. In-game economics logic has been established. Later we coded every essential part. In general; turret types, store properties, upgrade-sell-buy mechanics, camera movements, in-game and out-of-game UI design changes, and the player's health bar design were the main focus of this sprint. Initial Tile Texture and possible path designs were created. Art Direction decisions were made as a team.
+* **Sprint Retrospective:** All of the daily conversations continued over Whatsapp. Communication was well-maintained. Everyone was present at every meeting on time. Team dynamics were right on track without a problem. All of the team members worked together to avoid problems in the Push/Pull sessions of Unity.
