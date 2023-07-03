@@ -29,7 +29,7 @@ Team Unity 67
 * Tower Defense Fans
 # Sprint 1
 * **Estimated score to be completed in the sprint:** 100 Points
-* **Logic behind point completion:** In total, there will be a total of 300 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete 100 points, ensuring an equal distribution of work for each sprint.
+* **Logic behind point completion:** In total, there will be a total of 350 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete around 100 points, ensuring an equal distribution of work for each sprint.
 * **Daily Scrum:**  It has been decided to hold the Daily Scrum meetings over Whatsapp & Discord combined (depending on the day and availability of the team members) for their flexibility and time efficiency. An example of Daily Scrum meeting is shared below:
 * [Sprint 1 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/11782522/WhatsappExport.pdf)
 * **Sprint Notes:** Point criteria are specified as tags. Each colour of the tag represents the amount of points for a task. User Story is represented by the blue tag. 
@@ -45,6 +45,7 @@ Team Unity 67
 * [Unity Team 67 Figma Board](https://www.figma.com/file/NCYuB1BaYlpFb3p5D8yhhJ/GOUA-BOOTCAMP?type=whiteboard&node-id=0%3A1&t=GqrkjPL1u8cXyyWj-1) The design process, brainstorming and meeting summaries are included.
 # Sprint 2
 * **Estimated score to be completed in the sprint:** 140 Points
+* **Logic behind point completion:** In total, there will be a total of 350 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete around 100 points, ensuring an equal distribution of work for each sprint.
 * **Daily Scrum:** We kept on communicating through Whatsapp and Discord daily as we did in our first sprint. We informed each other on both of those platforms regularly.
 * [Sprint 1 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/11931482/Whatsapp.pdf)
 * **Sprint Notes:** In this sprint, we both focused on completing the gameplay aspect and the general art decisions of the game. We still have small tweaks about perfecting the gameplay, but most of our work has been finished. In the last sprint, we will be completing the medieval-themed map and other themed maps and will be polishing the UI Design of the game. 
