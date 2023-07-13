@@ -1,4 +1,4 @@
-![Logo_1](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/9360e8e8-93eb-4b01-90fd-8301dce76344)
+![Logo_1](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/7c2ab7b0-c1cc-4a7a-bf11-21f396baa3d2)
 # Team Name
 Team Unity 67
 # Product-Related Information
