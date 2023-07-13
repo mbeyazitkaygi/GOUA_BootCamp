@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/GÖZDE/MenuBoard/DemoScene/demo.unity.meta
 guid: 7411a3e6552f815438c6dbd4c0738dfb
 timeCreated: 1508583450
 licenseType: Store
+========
+guid: 35bb421d3d7cae44abcd1b2257a270c4
+folderAsset: yes
+>>>>>>>> a6a58c24ac50baf8f33add909fa9477bd9254d80:Assets/Scenes/MELİHA/AssetsTaken/fruits/Materials.meta
 DefaultImporter:
   userData: 
   assetBundleName: 
