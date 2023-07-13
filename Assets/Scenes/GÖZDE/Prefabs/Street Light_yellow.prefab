@@ -43,14 +43,14 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9193331, g: 0.9245283, b: 0.3270737, a: 1}
+  m_Color: {r: 0.9254902, g: 0.87835926, b: 0.32549018, a: 1}
   m_Intensity: 3
   m_Range: 6
   m_SpotAngle: 61.87735
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
