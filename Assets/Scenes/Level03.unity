@@ -10527,21 +10527,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68c680e9d774acc41aa6d20e4b29e36b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standardTurret:
-    prefab: {fileID: 8520328129226706341, guid: 76dcb14c64d477a40ac43c85ff8b2d8f, type: 3}
-    cost: 100
-    upgradedPrefab: {fileID: 8520328129226706341, guid: f1c278d5f06817c4fb85c6d0499dfd76, type: 3}
-    upgradeCost: 60
-  missileLauncher:
-    prefab: {fileID: 7575574963900651789, guid: b5c2cb402c61baa4f89ded068d8214a7, type: 3}
-    cost: 250
-    upgradedPrefab: {fileID: 7575574963900651789, guid: 719ab1f6a02266e429a17cb9ea37559d, type: 3}
-    upgradeCost: 150
-  laserBeamer:
-    prefab: {fileID: 6195712579152141948, guid: 3b1ae38660e441342ae019193e2e2cb7, type: 3}
-    cost: 350
-    upgradedPrefab: {fileID: 6195712579152141948, guid: 460119346a5025545a298f640d0f9dd5, type: 3}
-    upgradeCost: 150
+  cannonTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  wizardTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  poisonTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  ballistaTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  archerTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
 --- !u!114 &1011097479
 MonoBehaviour:
   m_ObjectHideFlags: 0
