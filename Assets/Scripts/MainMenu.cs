@@ -2,7 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
-	public string levelToLoad = "MainLevel";
+	public string levelToLoad = "RoomLevelSelect";
+	public string creditsToLoad = "CreditsScene";
 
 	public SceneFader sceneFader;
 
@@ -10,6 +11,12 @@ public class MainMenu : MonoBehaviour {
 	{
 
 		sceneFader.FadeTo(levelToLoad);
+	}
+
+	public void Credits ()
+	{
+
+		sceneFader.FadeTo(creditsToLoad);
 	}
 
 	public void Quit ()

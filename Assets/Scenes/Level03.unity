@@ -48025,8 +48025,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuSceneName: MainMenu
-  nextLevel: Level02
-  levelToUnlock: 2
+  nextLevel: Level04
+  levelToUnlock: 4
   sceneFader: {fileID: 1060166995}
 --- !u!1 &1700991173
 GameObject:
