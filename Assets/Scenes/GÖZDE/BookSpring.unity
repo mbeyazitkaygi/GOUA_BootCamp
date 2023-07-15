@@ -15055,7 +15055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &672512260
 Transform:
   m_ObjectHideFlags: 0
@@ -17950,21 +17950,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68c680e9d774acc41aa6d20e4b29e36b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standardTurret:
-    prefab: {fileID: 8520328129226706341, guid: 76dcb14c64d477a40ac43c85ff8b2d8f, type: 3}
+  cannonTurret:
+    prefab: {fileID: 489647802119167191, guid: e5819e35178b9d14ba624a385c98fa6e, type: 3}
     cost: 100
-    upgradedPrefab: {fileID: 8520328129226706341, guid: f1c278d5f06817c4fb85c6d0499dfd76, type: 3}
-    upgradeCost: 60
-  missileLauncher:
-    prefab: {fileID: 7575574963900651789, guid: b5c2cb402c61baa4f89ded068d8214a7, type: 3}
-    cost: 250
-    upgradedPrefab: {fileID: 7575574963900651789, guid: 719ab1f6a02266e429a17cb9ea37559d, type: 3}
+    upgradedPrefab: {fileID: 7781305241976232185, guid: 482a6aedf650c7e47ac002e8cef42f70, type: 3}
     upgradeCost: 150
-  laserBeamer:
-    prefab: {fileID: 6195712579152141948, guid: 3b1ae38660e441342ae019193e2e2cb7, type: 3}
-    cost: 350
-    upgradedPrefab: {fileID: 6195712579152141948, guid: 460119346a5025545a298f640d0f9dd5, type: 3}
-    upgradeCost: 150
+  wizardTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  poisonTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  ballistaTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  archerTurret:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
 --- !u!114 &1011097479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32226,6 +32236,61 @@ Transform:
   - {fileID: 543450653377200637}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1316438731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316438733}
+  - component: {fileID: 1316438732}
+  m_Layer: 0
+  m_Name: Clouds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1316438732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316438731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f0c6587e4af7dc4789cdc6594c00e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudMesh: {fileID: 289301614986012343, guid: bca4dcec10a02ba4bacf34731530f2fb, type: 3}
+  cloudMat: {fileID: 2100000, guid: dd9560b6dba76084a9a4f8c93f5db6b3, type: 2}
+  cloudSize: 2
+  maxScale: 2
+  timeScale: 0.1
+  texScale: 0.1
+  minNoiseSize: 0.65
+  sizeScale: 1
+  cam: {fileID: 1414267787}
+  maxDist: 75
+  batchesToCreate: 4
+--- !u!4 &1316438733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316438731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.2, y: 40.2, z: -33.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1321254973
 GameObject:
