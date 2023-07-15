@@ -39,6 +39,7 @@ public class EnemyMovement : MonoBehaviour {
 
 		wavepointIndex++;
 		target = Waypoints.points[wavepointIndex];
+		transform.LookAt(target);
 	}
 
 	void EndPath()

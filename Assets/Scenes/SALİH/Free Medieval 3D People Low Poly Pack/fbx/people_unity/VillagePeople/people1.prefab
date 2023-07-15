@@ -1197,6 +1197,7 @@ GameObject:
   - component: {fileID: 1517221368}
   - component: {fileID: 1517221366}
   - component: {fileID: 1517221367}
+  - component: {fileID: 4781503398973159908}
   m_Layer: 0
   m_Name: people1
   m_TagString: Enemy
@@ -1287,6 +1288,20 @@ MonoBehaviour:
   worth: 50
   deathEffect: {fileID: 8745814583554025985, guid: 9b85229dcd99e264aac2d6de68ca900e, type: 3}
   healthBar: {fileID: 693467825}
+--- !u!114 &4781503398973159908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549841466267720153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf88d98a90324e64db173255269e7116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthbarSprite: {fileID: 0}
+  _reduceSpeed: 2
 --- !u!1 &5722314118788312424
 GameObject:
   m_ObjectHideFlags: 0
