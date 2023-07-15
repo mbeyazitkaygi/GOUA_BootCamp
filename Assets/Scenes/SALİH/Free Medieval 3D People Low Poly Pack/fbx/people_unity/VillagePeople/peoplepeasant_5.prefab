@@ -955,7 +955,7 @@ MonoBehaviour:
   startHealth: 200
   worth: 50
   deathEffect: {fileID: 8745814583554025985, guid: 9b85229dcd99e264aac2d6de68ca900e, type: 3}
-  healthBar: {fileID: 3047406273291397237}
+  healthBar: {fileID: 5577875493596261706}
 --- !u!114 &6946112869353619581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1244,8 +1244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.94}
-  m_SizeDelta: {x: 25.3235, y: 10.1063}
+  m_AnchoredPosition: {x: 0, y: 1.8554}
+  m_SizeDelta: {x: 25.3235, y: 4.4647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2465496983725074292
 Canvas:
@@ -1444,7 +1444,7 @@ MonoBehaviour:
   m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_FillOrigin: 1
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!1 &7230002545752146998
