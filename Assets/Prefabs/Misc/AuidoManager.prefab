@@ -45,9 +45,159 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: TurretPlacement
-    clip: {fileID: 8300000, guid: a330e9f0a1d61114f951cae9952a8224, type: 3}
+  - name: TowerBuildSound
+    clip: {fileID: 8300000, guid: 617446eaef13e744686b4ceda10638ed, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TowerDestroySound
+    clip: {fileID: 8300000, guid: 8bd7141176e0d1548857427a9a429fa5, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CannonShootSound
+    clip: {fileID: 8300000, guid: 5c77543c1414bf841bcb53ebe4d85c8a, type: 3}
+    volume: 1
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: BallistaShootSound
+    clip: {fileID: 8300000, guid: f097f37fa28235b459ddaa10104309a3, type: 3}
+    volume: 1
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: ArcherShootSound
+    clip: {fileID: 8300000, guid: b0b4aeb56eba7ec49a29bfeace66d4b2, type: 3}
     volume: 1
     pitch: 1
     loop: 0
+    source: {fileID: 0}
+  - name: WizardShootSound
+    clip: {fileID: 8300000, guid: a5858ea9f375114408ceb51c786326c8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyDeathSound1
+    clip: {fileID: 8300000, guid: 50f2e30501b627c43b5432af46d846f7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyDeathSound2
+    clip: {fileID: 8300000, guid: bc74dd8c678c9d048a676ed57857d53c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyDeathSound3
+    clip: {fileID: 8300000, guid: 0a1b060af0da56c4ea22b66a00f8f3a9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyDeathSound4
+    clip: {fileID: 8300000, guid: e17485f3857b3364298aebaa2f7c565d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: StartSound
+    clip: {fileID: 8300000, guid: f1be0041fdea70e4eab5590f9921b177, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: StopSound
+    clip: {fileID: 8300000, guid: 00ef08836112317409bbf1f9dda4469d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: UIClickSound
+    clip: {fileID: 8300000, guid: 5110d09488a044543a7e4abec2040d00, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MuteButtonSound
+    clip: {fileID: 8300000, guid: 34efc6b78863e6e408de028fd50fc9fe, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LockedSound
+    clip: {fileID: 8300000, guid: 4b6b2ae911e6b154bb877c0e43883acb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WinSound
+    clip: {fileID: 8300000, guid: 68fb2cdf29d47a3478fa5e8c25d83af7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LoseSound
+    clip: {fileID: 8300000, guid: d64c8a4026d487046a1c877f0c2e3a62, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PauseMenuMusic
+    clip: {fileID: 8300000, guid: 9be986a238a710b44afc1fc7d34c43f5, type: 3}
+    volume: 1
+    pitch: 0.25
+    loop: 1
+    source: {fileID: 0}
+  - name: SpringMusic
+    clip: {fileID: 8300000, guid: 5c28e76f9afdd3747919660ab8d7680a, type: 3}
+    volume: 1
+    pitch: 0.25
+    loop: 1
+    source: {fileID: 0}
+  - name: SummerMusic
+    clip: {fileID: 8300000, guid: f5e1d6d72850de54c855148af766d6de, type: 3}
+    volume: 1
+    pitch: 0.25
+    loop: 1
+    source: {fileID: 0}
+  - name: AutumnMusic
+    clip: {fileID: 8300000, guid: 86a98ed4c991ae4419751b7e5952234d, type: 3}
+    volume: 1
+    pitch: 0.25
+    loop: 1
+    source: {fileID: 0}
+  - name: WinterMusic
+    clip: {fileID: 8300000, guid: 6f10937051765fa41b3349a9bbd29b74, type: 3}
+    volume: 1
+    pitch: 0.25
+    loop: 1
+    source: {fileID: 0}
+  - name: SpringAmbientSound
+    clip: {fileID: 8300000, guid: 4d3b1d069c88ecc43b89c670213ef7f3, type: 3}
+    volume: 1
+    pitch: 0.2
+    loop: 1
+    source: {fileID: 0}
+  - name: SummerAmbientSound
+    clip: {fileID: 8300000, guid: 074d8c3e672a9c34d88ad919dcf5889e, type: 3}
+    volume: 1
+    pitch: 0.2
+    loop: 1
+    source: {fileID: 0}
+  - name: AutumunAmbientSound
+    clip: {fileID: 8300000, guid: a1dc6bc64fac6c84ebccd305694e6371, type: 3}
+    volume: 1
+    pitch: 0.2
+    loop: 1
+    source: {fileID: 0}
+  - name: WinterAmbientSound
+    clip: {fileID: 8300000, guid: 6562245228e3b8a48a925236c979faee, type: 3}
+    volume: 1
+    pitch: 0.2
+    loop: 1
     source: {fileID: 0}

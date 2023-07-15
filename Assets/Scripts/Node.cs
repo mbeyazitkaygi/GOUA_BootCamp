@@ -66,7 +66,7 @@ public class Node : MonoBehaviour
 
         turretBlueprint = blueprint;
 
-        //FindAnyObjectByType<AudioManager>().Play("TurretPlacement");
+        FindAnyObjectByType<AudioManager>().Play("TowerBuildSound");
 
         GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
@@ -90,6 +90,8 @@ public class Node : MonoBehaviour
         //Build a new one
         GameObject _turret = (GameObject)Instantiate(turretBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
+
+        //FindAnyObjectByType<AudioManager>().Play("TurretUpgrade");
 
         GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
