@@ -18428,7 +18428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &430223898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23690,7 +23690,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh656070
+  m_Name: pb_Mesh23720
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24672,7 +24672,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!114 &1414267789
 MonoBehaviour:
@@ -31439,23 +31439,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - enemy: {fileID: 149709278190381583, guid: 19cb54d97ee1739458d61fcfd98c45dd, type: 3}
+  - enemy: {fileID: 6166702635894791471, guid: 781b50531c7338b4b9f675d2a22e2e8d, type: 3}
     count: 1
     rate: 2
-  - enemy: {fileID: 149709278190381583, guid: 19cb54d97ee1739458d61fcfd98c45dd, type: 3}
+  - enemy: {fileID: 2752480201804691040, guid: aaff53bd20b7d2a44adc37270be6b95d, type: 3}
     count: 3
     rate: 2
-  - enemy: {fileID: 149709278190381583, guid: 19cb54d97ee1739458d61fcfd98c45dd, type: 3}
+  - enemy: {fileID: 5549841466267720153, guid: 26f7ae2f160a77341b0b5cd0a8ee7fae, type: 3}
     count: 5
     rate: 2
-  - enemy: {fileID: 5979623531188330349, guid: 2aff0698c6995594686dd1c0b0094d16, type: 3}
+  - enemy: {fileID: 5549841466267720153, guid: 26f7ae2f160a77341b0b5cd0a8ee7fae, type: 3}
     count: 5
     rate: 1
-  - enemy: {fileID: 149709278190381583, guid: e1a819d20b6222f4792dff8aaaf182cb, type: 3}
+  - enemy: {fileID: 5549841466267720153, guid: 26f7ae2f160a77341b0b5cd0a8ee7fae, type: 3}
     count: 10
     rate: 3
-  spawnPoint: {fileID: 0}
-  timeBetweenWaves: 3
+  spawnPoint: {fileID: 1853759193}
+  timeBetweenWaves: 1
   waveCountdownText: {fileID: 1537117659}
   gameManager: {fileID: 1755470280}
 --- !u!4 &1755470276
@@ -31501,7 +31501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 5000
-  startLives: 1
+  startLives: 10
 --- !u!114 &1755470280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83886,7 +83886,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8280932453567449658, guid: f6e85ea0855386547932f8be53056dd0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8280932453567449658, guid: f6e85ea0855386547932f8be53056dd0, type: 3}
       propertyPath: m_LocalPosition.x
