@@ -57,6 +57,12 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: TowerSellSound
+    clip: {fileID: 8300000, guid: 18272e4f649bde84ca47c7ebb025c2b9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
   - name: CannonShootSound
     clip: {fileID: 8300000, guid: 5c77543c1414bf841bcb53ebe4d85c8a, type: 3}
     volume: 1

@@ -20,31 +20,31 @@ public class Shop : MonoBehaviour
 
     public void SelectStandardTurret()
     {
-        Debug.Log("Standard Turret Selected");
         buildManager.SelectTurretToBuild(cannonTurret);
+        FindAnyObjectByType<AudioManager>().Play("MuteButtonSound");
     }
 
     public void SelectMissileLauncher()
     {
-        Debug.Log("Missile Launcher Selected");
         buildManager.SelectTurretToBuild(wizardTurret);
+        FindAnyObjectByType<AudioManager>().Play("MuteButtonSound");
     }
 
     public void SelectArcherTurret()
     {
-        Debug.Log("Archer Turret Selected");
         buildManager.SelectTurretToBuild(archerTurret);
+        FindAnyObjectByType<AudioManager>().Play("MuteButtonSound");
     }
 
     public void SelectBallistaTurret()
     {
-        Debug.Log("Ballista Turret Selected");
         buildManager.SelectTurretToBuild(ballistaTurret);
+        FindAnyObjectByType<AudioManager>().Play("MuteButtonSound");
     }
 
     public void SelectLaserBeamer()
     {
-        Debug.Log("Laser Beamer Selected");
         buildManager.SelectTurretToBuild(poisonTurret);
+        FindAnyObjectByType<AudioManager>().Play("MuteButtonSound");
     }
 }

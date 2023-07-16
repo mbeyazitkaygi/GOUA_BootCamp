@@ -9,26 +9,21 @@ public class GameOver : MonoBehaviour
     public SceneFader sceneFader;
     public MovingCamera movingCamera;
 
-    //MovingCamera script'ine referansta bulun
-
     public void Retry()
     {
         sceneFader.FadeTo(SceneManager.GetActiveScene().name);
+        FindAnyObjectByType<AudioManager>().Play("UIClickSound");
     }
 
     public void Menu()
     {
-
         movingCamera.BackToCam();
-
-
-        //e�er sahnede CameraStartPos veya CameraEndPos objeleri var m� yok mu bunu kontrol etsin, null'sa return etsin bu kadar
-
-        //"K" kodunu �a��r
+        FindAnyObjectByType<AudioManager>().Play("UIClickSound");
     }
     public void GameOverMenu()
     {
         sceneFader.FadeTo(menuSceneName);
+        FindAnyObjectByType<AudioManager>().Play("UIClickSound");
     }
 
 }

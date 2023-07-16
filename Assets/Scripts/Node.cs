@@ -95,7 +95,7 @@ public class Node : MonoBehaviour
         GameObject _turret = (GameObject)Instantiate(turretBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
         turret = _turret;
 
-        //FindAnyObjectByType<AudioManager>().Play("TurretUpgrade");
+        FindAnyObjectByType<AudioManager>().Play("TowerBuildSound");
 
         GameObject effect = (GameObject)Instantiate(buildManager.buildEffect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
@@ -111,6 +111,8 @@ public class Node : MonoBehaviour
 
         GameObject effect = (GameObject)Instantiate(buildManager.sellEffect, GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
+
+        FindAnyObjectByType<AudioManager>().Play("TowerSellSound");
 
         Destroy(turret);
         turretBlueprint = null;

@@ -14,15 +14,19 @@ public class MainMenu : MonoBehaviour
     public void Play()
     {
         movingCamera.MoveToCam();
+        FindAnyObjectByType<AudioManager>().Play("UIClickSound");
     }
 
     public void Credits()
     {
         sceneFader.FadeTo(creditsToLoad);
+        FindAnyObjectByType<AudioManager>().Play("UIClickSound");
     }
 
     public void Quit()
     {
+        FindAnyObjectByType<AudioManager>().Play("UIClickSound");
+
         Debug.Log("Exciting...");
         Application.Quit();
 
