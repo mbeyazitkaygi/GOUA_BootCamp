@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545951707e5090c42b38c9a9034b326a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 1, g: 0.83183765, b: 0, a: 0}
+  hoverColor: {r: 1, g: 0.83137256, b: 0, a: 0}
   notEnoughMoneyColor: {r: 0.8867924, g: 0.17066568, b: 0.17066568, a: 1}
   node2Material: {fileID: 2100000, guid: e04c00ad15f3d7d40a21751f9834b2d1, type: 2}
   nodeMaterial: {fileID: 2100000, guid: 146e533fd699c9740b6d63260ad76109, type: 2}

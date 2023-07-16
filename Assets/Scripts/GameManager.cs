@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverUI;
     public GameObject completeLevelUI;
+    public GameObject musicBox;
 
     void Start()
     {
@@ -28,6 +29,7 @@ public class GameManager : MonoBehaviour
         GameIsOver = true;
         gameOverUI.SetActive(true);
         FindAnyObjectByType<AudioManager>().Play("LoseSound");
+        musicBox.SetActive(false);
     }
 
     public void WinLevel()
