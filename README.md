@@ -60,6 +60,9 @@ Team Unity 67
 ![issmage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/2868e5cd-5aac-446c-bc3e-6ac8c0b10780)
 * **Sprint Review:** In this sprint, we built on the main components of the game and decided on the important dynamics. In-game economics logic has been established. Later we coded every essential part. In general; turret types, store properties, upgrade-sell-buy mechanics, camera movements, in-game and out-of-game UI design changes, and the player's health bar design were the main focus of this sprint. Initial Tile Texture and possible path designs were created. Art Direction decisions were made as a team.
 * **Sprint Retrospective:** All of the daily conversations continued over Whatsapp. Communication was well-maintained. Everyone was present at every meeting on time. Team dynamics were right on track without a problem. All of the team members worked together to avoid problems in the Push/Pull sessions of Unity.
+## Product Backlog URL
+* [Unity Team 67 Trello Backlog Board](https://trello.com/b/GI5dGGLP/gouabootcampsprint3backlog)
+* [Unity Team 67 Figma Board](https://www.figma.com/file/NCYuB1BaYlpFb3p5D8yhhJ/GOUA-BOOTCAMP?type=whiteboard&node-id=0%3A1&t=GqrkjPL1u8cXyyWj-1) The design process, brainstorming and meeting summaries are included.
 # Sprint 3
 * **Estimated score to be completed in the sprint:** 230 Points
 * **Logic behind point completion:** In total, there will be a total of 470 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete around 150 points, ensuring an equal distribution of work for each sprint.
