@@ -7,6 +7,6 @@ public class PlayerStatReset : MonoBehaviour
     {
         PlayerPrefs.DeleteAll();
         LevelSelector.levelReached = 1;
-        SceneManager.LoadScene("RoomLevelSelect");
+        SceneManager.LoadScene("MenuScene");
     }
 }

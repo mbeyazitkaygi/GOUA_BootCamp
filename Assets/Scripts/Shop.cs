@@ -9,6 +9,8 @@ public class Shop : MonoBehaviour
     public TurretBlueprint ballistaTurret;
     public TurretBlueprint archerTurret;
 
+    private Node nodeScript;
+
     BuildManager buildManager;
 
     void Start()
@@ -45,6 +47,4 @@ public class Shop : MonoBehaviour
         Debug.Log("Laser Beamer Selected");
         buildManager.SelectTurretToBuild(poisonTurret);
     }
-
-
 }

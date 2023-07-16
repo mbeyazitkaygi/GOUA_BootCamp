@@ -8,36 +8,21 @@ public class MovingCamera : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float rotateSpeed = 5f;
     [SerializeField] private float clampDistance = 0.1f;
-    [SerializeField] private Canvas targetCanvas;
+    [SerializeField] private Canvas menuCanvas;
+    [SerializeField] private Canvas selectionCanvas;
 
     private bool moveToStartPos = false;
     private bool moveToEndPos = false;
 
+    private void Start()
+    {
+        if (selectionCanvas != null)
+        {
+            selectionCanvas.enabled = false;
+        }
+    }
     private void Update()
     {
-        // Check for input to move camera to the end position
-        /* if (Input.GetKeyDown(KeyCode.J))
-         {
-             moveToEndPos = true;
-             moveToStartPos = false;
-             if (targetCanvas != null)
-             {
-                 targetCanvas.enabled = false;
-             }
-         }*/
-
-        // Check for input to move camera to the start position
-        /* if (Input.GetKeyDown(KeyCode.K))
-         {
-             moveToStartPos = true;
-             moveToEndPos = false;
-
-             if (targetCanvas != null)
-             {
-                 targetCanvas.enabled = true;
-             }
-         }*/
-
         // Move the camera towards the end position
         if (moveToEndPos)
         {
@@ -62,11 +47,6 @@ public class MovingCamera : MonoBehaviour
         {
             moveToStartPos = false;
             moveToEndPos = false;
-            //if (targetCanvas != null)
-            //{
-            //    targetCanvas.enabled = true;
-            //}
-            //return;
         }
 
         // Calculate the movement amount based on moveSpeed and frame time
@@ -88,9 +68,15 @@ public class MovingCamera : MonoBehaviour
     {
         moveToEndPos = true;
         moveToStartPos = false;
-        if (targetCanvas != null)
+
+        if (menuCanvas != null)
         {
-            targetCanvas.enabled = false;
+            menuCanvas.enabled = false;
+        }
+
+        if (selectionCanvas != null)
+        {
+            selectionCanvas.enabled = true;
         }
     }
     public void BackToCam()
@@ -98,9 +84,16 @@ public class MovingCamera : MonoBehaviour
         moveToStartPos = true;
         moveToEndPos = false;
 
-        if (targetCanvas != null)
+        if (menuCanvas != null)
         {
-            targetCanvas.enabled = true;
+            menuCanvas.enabled = true;
         }
+
+        if (selectionCanvas != null)
+        {
+            selectionCanvas.enabled = false;
+        }
+
+
     }
 }

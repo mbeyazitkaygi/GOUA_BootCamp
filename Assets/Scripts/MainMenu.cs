@@ -13,9 +13,6 @@ public class MainMenu : MonoBehaviour
 
     public void Play()
     {
-
-        //sceneFader.FadeTo(levelToLoad);
-        // "J" kodunu �a��r
         movingCamera.MoveToCam();
     }
 

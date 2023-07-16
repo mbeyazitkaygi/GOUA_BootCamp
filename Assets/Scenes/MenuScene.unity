@@ -1263,8 +1263,8 @@ RectTransform:
   m_Father: {fileID: 2090038813}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1500,8 +1500,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -402.375, y: -120}
-  m_SizeDelta: {x: 310.968, y: 59.7081}
+  m_AnchoredPosition: {x: 50, y: -150}
+  m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &694927548
 MonoBehaviour:
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.75
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3137,8 +3137,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -402.375, y: 50}
-  m_SizeDelta: {x: 310.968, y: 59.7081}
+  m_AnchoredPosition: {x: 50, y: 150}
+  m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1256084447
 MonoBehaviour:
@@ -3513,7 +3513,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.75
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3870,10 +3870,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraStartPos: {fileID: 788738626}
   cameraEndPos: {fileID: 1785612999}
-  moveSpeed: 100
+  moveSpeed: 300
   rotateSpeed: 5
   clampDistance: 0.1
-  targetCanvas: {fileID: 2090038812}
+  menuCanvas: {fileID: 2090038812}
+  selectionCanvas: {fileID: 1623622944}
 --- !u!1 &1426309638
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,8 +3910,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 228.14018, y: 0}
-  m_SizeDelta: {x: 456.2804, y: 134.219}
+  m_AnchoredPosition: {x: 537.02, y: -36}
+  m_SizeDelta: {x: 974.0499, y: 286.5256}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1426309640
 MonoBehaviour:
@@ -15761,7 +15762,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh49938
+  m_Name: pb_Mesh243416
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16036,7 +16037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.199}
+  m_AnchoredPosition: {x: 0, y: -2.1989994}
   m_SizeDelta: {x: 0, y: 17.5918}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1606564006
@@ -16649,7 +16650,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49.75
+  m_fontSize: 72
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16737,8 +16738,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -402.375, y: -35}
-  m_SizeDelta: {x: 310.968, y: 59.7081}
+  m_AnchoredPosition: {x: 50, y: 0}
+  m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1779296863
 MonoBehaviour:
