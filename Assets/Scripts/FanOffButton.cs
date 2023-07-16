@@ -22,5 +22,6 @@ public class FanOffButton : MonoBehaviour
     private void TurnTheFanOff()
     {
         fanAnimator.SetTrigger("turnOff");
+        //        FindAnyObjectByType<AudioManager>().Play("FanOnOff");
     }
 }

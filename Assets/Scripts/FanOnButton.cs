@@ -22,5 +22,6 @@ public class FanOnButton : MonoBehaviour
     private void TurnTheFanOn()
     {
         fanAnimator.SetTrigger("turnOn");
+        //açma/kapama sesi eklenecek
     }
 }
