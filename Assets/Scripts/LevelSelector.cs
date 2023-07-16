@@ -23,5 +23,7 @@ public class LevelSelector : MonoBehaviour
     {
         fader.FadeTo(levelName);
         FindAnyObjectByType<AudioManager>().Play("UIClickSound");
+        //stop playing menu music
+        //start playing summer music
     }
 }

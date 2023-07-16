@@ -8,7 +8,11 @@ public class PauseMenu : MonoBehaviour {
 
 	public SceneFader sceneFader;
 
-	void Update ()
+    public AudioSource musicSource;
+    public AudioSource ambientSource;
+
+
+    void Update ()
 	{
 		if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
 		{
@@ -22,11 +26,18 @@ public class PauseMenu : MonoBehaviour {
 		if (ui.activeSelf)
 		{
 			Time.timeScale = 0f;
-		} else
+            FindAnyObjectByType<AudioManager>().Play("PauseMenuMusic");
+            musicSource.volume = 0f;
+			ambientSource.volume = 0f;
+        }
+        else
 		{
 			Time.timeScale = 1f;
-		}
-	}
+            FindAnyObjectByType<AudioManager>().Stop("PauseMenuMusic");
+            musicSource.volume = 1f;
+			ambientSource.volume = 1f;
+        }
+    }
 	public void Retry ()
 	{
 		Toggle();
