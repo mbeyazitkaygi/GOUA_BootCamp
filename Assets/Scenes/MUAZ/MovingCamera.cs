@@ -16,27 +16,27 @@ public class MovingCamera : MonoBehaviour
     private void Update()
     {
         // Check for input to move camera to the end position
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            moveToEndPos = true;
-            moveToStartPos = false;
-            if (targetCanvas != null)
-            {
-                targetCanvas.enabled = false;
-            }
-        }
+        /* if (Input.GetKeyDown(KeyCode.J))
+         {
+             moveToEndPos = true;
+             moveToStartPos = false;
+             if (targetCanvas != null)
+             {
+                 targetCanvas.enabled = false;
+             }
+         }*/
 
         // Check for input to move camera to the start position
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            moveToStartPos = true;
-            moveToEndPos = false;
+        /* if (Input.GetKeyDown(KeyCode.K))
+         {
+             moveToStartPos = true;
+             moveToEndPos = false;
 
-            if (targetCanvas != null)
-            {
-                targetCanvas.enabled = true;
-            }
-        }
+             if (targetCanvas != null)
+             {
+                 targetCanvas.enabled = true;
+             }
+         }*/
 
         // Move the camera towards the end position
         if (moveToEndPos)
@@ -83,5 +83,24 @@ public class MovingCamera : MonoBehaviour
 
         // Smoothly rotate the camera towards the target rotation
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
+    }
+    public void MoveToCam()
+    {
+        moveToEndPos = true;
+        moveToStartPos = false;
+        if (targetCanvas != null)
+        {
+            targetCanvas.enabled = false;
+        }
+    }
+    public void BackToCam()
+    {
+        moveToStartPos = true;
+        moveToEndPos = false;
+
+        if (targetCanvas != null)
+        {
+            targetCanvas.enabled = true;
+        }
     }
 }

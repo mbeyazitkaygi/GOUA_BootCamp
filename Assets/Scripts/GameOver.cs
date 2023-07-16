@@ -1,27 +1,34 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
-public class GameOver : MonoBehaviour {
+public class GameOver : MonoBehaviour
+{
 
-	public string menuSceneName = "MainMenu";
+    public string menuSceneName = "MenuScene";
 
-	public SceneFader sceneFader;
+    public SceneFader sceneFader;
+    public MovingCamera movingCamera;
 
-	//MovingCamera script'ine referansta bulun
+    //MovingCamera script'ine referansta bulun
 
-	public void Retry ()
-	{
-		sceneFader.FadeTo(SceneManager.GetActiveScene().name);
+    public void Retry()
+    {
+        sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
 
-	public void Menu ()
-	{
-		sceneFader.FadeTo(menuSceneName);
+    public void Menu()
+    {
+
+        movingCamera.BackToCam();
 
 
-        //eðer sahnede CameraStartPos veya CameraEndPos objeleri var mý yok mu bunu kontrol etsin, null'sa return etsin bu kadar
+        //eï¿½er sahnede CameraStartPos veya CameraEndPos objeleri var mï¿½ yok mu bunu kontrol etsin, null'sa return etsin bu kadar
 
-        //"K" kodunu çaðýr
+        //"K" kodunu ï¿½aï¿½ï¿½r
+    }
+    public void GameOverMenu()
+    {
+        sceneFader.FadeTo(menuSceneName);
     }
 
 }

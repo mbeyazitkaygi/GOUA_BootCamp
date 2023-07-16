@@ -1,30 +1,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class MainMenu : MonoBehaviour {
+public class MainMenu : MonoBehaviour
+{
 
-	public string levelToLoad = "RoomLevelSelect";
-	public string creditsToLoad = "CreditsScene";
+    public string levelToLoad = "RoomLevelSelect";
+    public string creditsToLoad = "CreditsScene";
 
-	public SceneFader sceneFader;
+    public SceneFader sceneFader;
+    public MovingCamera movingCamera;
 
-	//MovingCamera script'ine referansta bulun 
+    //MovingCamera script'ine referansta bulun 
 
-	public void Play ()
-	{
+    public void Play()
+    {
 
-		sceneFader.FadeTo(levelToLoad);
-        // "J" kodunu çaðýr
+        //sceneFader.FadeTo(levelToLoad);
+        // "J" kodunu ï¿½aï¿½ï¿½r
+        movingCamera.MoveToCam();
     }
 
-    public void Credits ()
-	{
-		sceneFader.FadeTo(creditsToLoad);
-	}
+    public void Credits()
+    {
+        sceneFader.FadeTo(creditsToLoad);
+    }
 
-	public void Quit ()
-	{
-		Debug.Log("Exciting...");
-		Application.Quit();
+    public void Quit()
+    {
+        Debug.Log("Exciting...");
+        Application.Quit();
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
