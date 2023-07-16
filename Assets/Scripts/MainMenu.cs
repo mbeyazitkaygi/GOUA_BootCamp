@@ -7,15 +7,17 @@ public class MainMenu : MonoBehaviour {
 
 	public SceneFader sceneFader;
 
+	//MovingCamera script'ine referansta bulun 
+
 	public void Play ()
 	{
 
 		sceneFader.FadeTo(levelToLoad);
-	}
+        // "J" kodunu çaðýr
+    }
 
-	public void Credits ()
+    public void Credits ()
 	{
-
 		sceneFader.FadeTo(creditsToLoad);
 	}
 
