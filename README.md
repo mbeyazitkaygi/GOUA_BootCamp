@@ -47,7 +47,7 @@ Team Unity 67
 * **Estimated score to be completed in the sprint:** 140 Points
 * **Logic behind point completion:** In total, there will be a total of 350 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete around 100 points, ensuring an equal distribution of work for each sprint.
 * **Daily Scrum:** We kept on communicating through Whatsapp and Discord daily as we did in our first sprint. We informed each other on both of those platforms regularly.
-* [Sprint 1 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/11931482/Whatsapp.pdf)
+* [Sprint 2 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/11931482/Whatsapp.pdf)
 * **Sprint Notes:** In this sprint, we both focused on completing the gameplay aspect and the general art decisions of the game. We still have small tweaks about perfecting the gameplay, but most of our work has been finished. In the last sprint, we will be completing the medieval-themed map and other themed maps and will be polishing the UI Design of the game. 
 * **Sprint board update:** Sprint board screenshots:
 ![sprint_'](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/84d64e22-c35a-482e-98ba-1e51cea3e6f8)
@@ -67,7 +67,7 @@ Team Unity 67
 * **Estimated score to be completed in the sprint:** 230 Points
 * **Logic behind point completion:** In total, there will be a total of 470 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete around 150 points, ensuring an equal distribution of work for each sprint.
 * **Daily Scrum:** As usual, we kept our communication channels on both Whatsapp and Discord. This sprint we had more meetings compared to the last two. We held more than one meeting in a day so we could inform each other more and work accordingly.
-* [Sprint 1 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/12065292/Whatsapp_sprint3.pdf)
+* [Sprint 3 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/12065292/Whatsapp_sprint3.pdf)
 * **Sprint Notes:** This sprint was the last sprint of the marathon, so we focused on trying to finish our game as best as possible. We made improvements to the art style, narrative, interactable objects, and overall coding of the entire project. 
 * **Sprint board update:** Sprint board screenshots: ![image](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/18fca89b-f6a6-4f86-8f99-36e5a364fae7)
 ![imSage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/d635d919-7389-4244-9e93-8c3bb19718c0)
