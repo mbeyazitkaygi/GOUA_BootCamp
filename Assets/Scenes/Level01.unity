@@ -22291,7 +22291,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1638432239}
         m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
-        m_MethodName: Menu
+        m_MethodName: GameOverMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40050,8 +40050,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1507ea0d256c0d43bb99dae7b8a0dca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSceneName: MainMenu
+  menuSceneName: MenuScene
   sceneFader: {fileID: 401630619}
+  movingCamera: {fileID: 0}
 --- !u!95 &1638432240
 Animator:
   serializedVersion: 5
@@ -63683,7 +63684,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.36452517, b: 0.33088237, a: 1}
-  m_Intensity: 2
+  m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -63807,7 +63808,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.36452517, b: 0.33088237, a: 1}
-  m_Intensity: 2
+  m_Intensity: 4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
