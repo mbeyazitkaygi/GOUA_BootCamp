@@ -73,6 +73,7 @@ Team Unity 67
 ![imSage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/d635d919-7389-4244-9e93-8c3bb19718c0)
 ![imSSage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/d1da831c-e809-48f2-8fb9-6c74ca54e75a)
 ![imaAAge](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/0c4dafdf-1806-4969-acd9-8ff30a22f2bd)
+![iiimage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/7843be7c-422f-4cb3-b99d-ea8a97111454)
 * **Product Status:** Screenshots:
 
 * **Sprint Review:** This last sprint, we successfully executed all the planned tasks for the project. The design of the entire project underwent a significant rework, and each map was completed with the new art style in mind. Technical components for each map were utilized and finalized. We worked on the soundtracks and sound effects. The UI design of the game was completed. The enemy animations and varieties were added to the final product at last.
