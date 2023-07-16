@@ -19011,7 +19011,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &459249160
 PrefabInstance:
@@ -22343,7 +22343,7 @@ RectTransform:
   - {fileID: 2061374233}
   - {fileID: 1537117658}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -26119,7 +26119,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23796
+  m_Name: pb_Mesh154066
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -47849,7 +47849,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7039352846557317384, guid: 9e124739148d1d3499c1451beb2b826c, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7039352846557317384, guid: 9e124739148d1d3499c1451beb2b826c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47894,6 +47894,10 @@ PrefabInstance:
     - target: {fileID: 7039352846557317391, guid: 9e124739148d1d3499c1451beb2b826c, type: 3}
       propertyPath: m_Name
       value: SideShelf
+      objectReference: {fileID: 0}
+    - target: {fileID: 7039352846999961948, guid: 9e124739148d1d3499c1451beb2b826c, type: 3}
+      propertyPath: m_Type
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e124739148d1d3499c1451beb2b826c, type: 3}
@@ -95052,7 +95056,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8280932453567449658, guid: f6e85ea0855386547932f8be53056dd0, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8280932453567449658, guid: f6e85ea0855386547932f8be53056dd0, type: 3}
       propertyPath: m_LocalPosition.x

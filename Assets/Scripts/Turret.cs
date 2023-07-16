@@ -53,7 +53,8 @@ public class Turret : MonoBehaviour {
 		}
 	}
 
-    void Updat () {
+    void Update () 
+	{
 		if (target == null)
 		{
 			if (useLase)
@@ -106,7 +107,7 @@ public class Turret : MonoBehaviour {
 		if (bullet != null)
 			bullet.Seek(target);
 	}
-	void OnDrawGizmosSelecte ()
+	void OnDrawGizmosSelected ()
 	{
 		Gizmos.color = Color.red;
 		Gizmos.DrawWireSphere(transform.position, range);

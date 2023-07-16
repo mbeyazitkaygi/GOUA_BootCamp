@@ -45,6 +45,9 @@ public class EnemyMovement : MonoBehaviour {
 	void EndPath()
 	{
 		PlayerStats.Lives--;
+
+        FindAnyObjectByType<AudioManager>().Play("MuteButtonSound");
+
         WaveSpawner.EnemiesAlive--;
         Destroy(gameObject);
 	}
