@@ -36,12 +36,13 @@ public class CreditsScript : MonoBehaviour
         skipButton.gameObject.SetActive(true);
     }
 
-    public void SkipScene()
+    public void BackToMenu()
     {
         // Only skip the scene if video1 has finished playing
         if (video1Finished)
         {
-            SceneManager.LoadScene(0);
+            FindAnyObjectByType<AudioManager>().Play("UIClickSound");
+            SceneManager.LoadScene(1);
         }
     }
 
@@ -56,7 +57,7 @@ public class CreditsScript : MonoBehaviour
 
     private void TransitionToMenuScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void PlayVideo2()

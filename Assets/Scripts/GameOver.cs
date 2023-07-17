@@ -25,5 +25,4 @@ public class GameOver : MonoBehaviour
         sceneFader.FadeTo(menuSceneName);
         FindAnyObjectByType<AudioManager>().Play("UIClickSound");
     }
-
 }

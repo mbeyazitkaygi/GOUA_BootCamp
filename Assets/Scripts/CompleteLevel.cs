@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CompleteLevel : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class CompleteLevel : MonoBehaviour
         PlayerPrefs.SetInt("levelReached", levelToUnlock);
         LevelSelector.levelReached = levelToUnlock;
         sceneFader.FadeTo(nextLevel);
+    }
+
+    public void GameOverFinishGame()
+    {
+        SceneManager.LoadScene(6);
     }
 
     public void Menu()

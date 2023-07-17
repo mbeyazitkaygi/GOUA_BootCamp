@@ -66,6 +66,9 @@ public class IntroScript : MonoBehaviour
         // Stop playing the audio (optional)
         audioSource.Stop();
 
+        FindAnyObjectByType<AudioManager>().Play("UIClickSound");
+
+
         // Load the 1st scene (scene index 1 in the build settings)
         SceneManager.LoadScene(1);
     }
