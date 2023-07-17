@@ -66,7 +66,7 @@ Team Unity 67
 # Sprint 3
 * **Estimated score to be completed in the sprint:** 230 Points
 * **Logic behind point completion:** In total, there will be a total of 470 points for our backlog to be completed throughout the project. It has been decided that each sprint will aim to complete around 150 points, ensuring an equal distribution of work for each sprint.
-* **Daily Scrum:** As usual, we kept our communication channels on both Whatsapp and Discord. This sprint we had more meetings compared to the last two. We held more than one meeting in a day so we could inform each other more and work accordingly.
+* **Daily Scrum:** As usual, we kept our communication channels on both Whatsapp and Discord. This sprint we had more meetings compared to the last two. We held more than one meeting in a day so we could inform each other more and work accordingly. During this sprint, to make our project perfect we added additional tasks along the way.
 * [Sprint 3 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/12065292/Whatsapp_sprint3.pdf)
 * **Sprint Notes:** This sprint was the last sprint of the marathon, so we focused on trying to finish our game as best as possible. We made improvements to the art style, narrative, interactable objects, and overall coding of the entire project. 
 * **Sprint board update:** Sprint board screenshots:
