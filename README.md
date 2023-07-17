@@ -70,7 +70,7 @@ Team Unity 67
 * [Sprint 3 Daily Scrum Chats](https://github.com/gozdeaca/GOUA_BootCamp/files/12065292/Whatsapp_sprint3.pdf)
 * **Sprint Notes:** This sprint was the last sprint of the marathon, so we focused on trying to finish our game as best as possible. We made improvements to the art style, narrative, interactable objects, and overall coding of the entire project. 
 * **Sprint board update:** Sprint board screenshots:
-<img width="1235" alt="sprint_3" src="https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/3c39a3a0-ff5b-4bb5-a1ba-ea7dc96ff453">
+<img width="1235" alt="sprint_3" src="https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/05085eec-ad3b-4bcc-a96d-5f5c83048af1">
 
 * **Product Status:** Screenshots:
 ![im2](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/5361aa1c-5894-41cb-afda-fb703bd3de12)
