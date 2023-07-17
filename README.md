@@ -71,11 +71,14 @@ Team Unity 67
 * **Sprint Notes:** This sprint was the last sprint of the marathon, so we focused on trying to finish our game as best as possible. We made improvements to the art style, narrative, interactable objects, and overall coding of the entire project. 
 * **Sprint board update:** Sprint board screenshots:
 <img width="1235" alt="sprint_3" src="https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/3c39a3a0-ff5b-4bb5-a1ba-ea7dc96ff453">
-* **Product Status:** Screenshots: ![image](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/18fca89b-f6a6-4f86-8f99-36e5a364fae7)
-![imSage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/d635d919-7389-4244-9e93-8c3bb19718c0)
-![imSSage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/d1da831c-e809-48f2-8fb9-6c74ca54e75a)
-![imaAAge](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/0c4dafdf-1806-4969-acd9-8ff30a22f2bd)
-![iiimage](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/7843be7c-422f-4cb3-b99d-ea8a97111454)
+
+* **Product Status:** Screenshots:
+![im2](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/5361aa1c-5894-41cb-afda-fb703bd3de12)
+![im1](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/535a37b4-dee8-4cf0-a8ea-9d3d5f0d29d1)
+![im3](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/b4743a8a-0bad-4655-a509-51bec0a112c1)
+![im4](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/e0a48090-bc22-49e5-99aa-e1b10e50dbe6)
+![im5](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/cf046904-b060-4acb-b28f-9163477480f0)
+![im6](https://github.com/gozdeaca/GOUA_BootCamp/assets/123934798/b3f31126-5ae5-4a87-8e06-5bd616ca87b9)
 * **Sprint Review:** This last sprint, we successfully executed all the planned tasks for the project. The design of the entire project underwent a significant rework, and each map was completed with the new art style in mind. Technical components for each map were utilized and finalized. We worked on the soundtracks and sound effects. The UI design of the game was completed. The enemy animations and varieties were added to the final product at last.
 * **Sprint Retrospective:**  All of the daily conversations continued over WhatsApp alongside Discord. Knowing this was the last sprint, we continued to maintain well-maintained communication and cooperation. Respectful feedback was given when asked. We were extra careful about the Push/Pull sessions of Unity to avoid conflicts so we worked in harmony.
 * [Credits to Free Assets](https://docs.google.com/document/d/1tfjZxJp9IC9xPlKYC38swTwrGqccmUjIWjaaOH-Ebhk/edit?usp=sharing)
