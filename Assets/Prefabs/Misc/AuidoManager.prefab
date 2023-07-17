@@ -63,27 +63,33 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: CannonShootSound
-    clip: {fileID: 8300000, guid: 5c77543c1414bf841bcb53ebe4d85c8a, type: 3}
-    volume: 1
-    pitch: 0.5
+  - name: ArcherShootSound
+    clip: {fileID: 8300000, guid: b0b4aeb56eba7ec49a29bfeace66d4b2, type: 3}
+    volume: 0.1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: BallistaShootSound
     clip: {fileID: 8300000, guid: f097f37fa28235b459ddaa10104309a3, type: 3}
-    volume: 1
+    volume: 0.1
     pitch: 0.5
     loop: 0
     source: {fileID: 0}
-  - name: ArcherShootSound
-    clip: {fileID: 8300000, guid: b0b4aeb56eba7ec49a29bfeace66d4b2, type: 3}
-    volume: 1
+  - name: CannonShootSound
+    clip: {fileID: 8300000, guid: 5c77543c1414bf841bcb53ebe4d85c8a, type: 3}
+    volume: 0.1
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: PoisonShootSound
+    clip: {fileID: 8300000, guid: 3681c44c397c1d6469ad2050eecb63b8, type: 3}
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: WizardShootSound
     clip: {fileID: 8300000, guid: a5858ea9f375114408ceb51c786326c8, type: 3}
-    volume: 1
+    volume: 0.1
     pitch: 1
     loop: 0
     source: {fileID: 0}

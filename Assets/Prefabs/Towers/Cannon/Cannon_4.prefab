@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 9151383691324226676}
   m_Layer: 0
   m_Name: Cannon_4
-  m_TagString: Untagged
+  m_TagString: CannonTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,6 +258,11 @@ MonoBehaviour:
   partToRotate: {fileID: 4549057944489068387}
   turnSpeed: 10
   firePoint: {fileID: 1446756439909711846}
+  archerShoot: {fileID: 0}
+  balistaShoot: {fileID: 0}
+  cannonShoot: {fileID: 0}
+  poisonShoot: {fileID: 0}
+  wizardShoot: {fileID: 0}
 --- !u!1 &4365409923571989780
 GameObject:
   m_ObjectHideFlags: 0

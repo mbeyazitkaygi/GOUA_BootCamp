@@ -9927,7 +9927,7 @@ GameObject:
   - component: {fileID: -4596245478689865669}
   m_Layer: 0
   m_Name: Poison_2
-  m_TagString: Untagged
+  m_TagString: PoisonTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9975,6 +9975,11 @@ MonoBehaviour:
   partToRotate: {fileID: 1569458274145361100}
   turnSpeed: 10
   firePoint: {fileID: 3605354801284687878}
+  archerShoot: {fileID: 0}
+  balistaShoot: {fileID: 0}
+  cannonShoot: {fileID: 0}
+  poisonShoot: {fileID: 0}
+  wizardShoot: {fileID: 0}
 --- !u!120 &-4596245478689865669
 LineRenderer:
   m_ObjectHideFlags: 0

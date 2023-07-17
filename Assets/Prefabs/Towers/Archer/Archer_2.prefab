@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 3723298647071922139}
   m_Layer: 0
   m_Name: Archer_2
-  m_TagString: Untagged
+  m_TagString: ArcherTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,6 +258,11 @@ MonoBehaviour:
   partToRotate: {fileID: 3435668399366895145}
   turnSpeed: 10
   firePoint: {fileID: 7691629395482859904}
+  archerShoot: {fileID: 0}
+  balistaShoot: {fileID: 0}
+  cannonShoot: {fileID: 0}
+  poisonShoot: {fileID: 0}
+  wizardShoot: {fileID: 0}
 --- !u!1 &8029511924273637793
 GameObject:
   m_ObjectHideFlags: 0

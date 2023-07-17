@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 42161196468171775}
   m_Layer: 0
   m_Name: Wizard_1
-  m_TagString: Untagged
+  m_TagString: WizardTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,6 +175,11 @@ MonoBehaviour:
   partToRotate: {fileID: 4530016626605959540}
   turnSpeed: 10
   firePoint: {fileID: 2690804637502029808}
+  archerShoot: {fileID: 8300000, guid: b0b4aeb56eba7ec49a29bfeace66d4b2, type: 3}
+  balistaShoot: {fileID: 8300000, guid: f097f37fa28235b459ddaa10104309a3, type: 3}
+  cannonShoot: {fileID: 8300000, guid: 5c77543c1414bf841bcb53ebe4d85c8a, type: 3}
+  poisonShoot: {fileID: 8300000, guid: 3681c44c397c1d6469ad2050eecb63b8, type: 3}
+  wizardShoot: {fileID: 8300000, guid: a5858ea9f375114408ceb51c786326c8, type: 3}
 --- !u!1 &2117634058793296700
 GameObject:
   m_ObjectHideFlags: 0

@@ -484,7 +484,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh1119632
+  m_Name: pb_Mesh2899386
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -796,7 +796,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh1119908
+  m_Name: pb_Mesh2899658
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3417,8 +3417,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518960449}
-  m_LocalRotation: {x: 0.5000004, y: 0.000000043766512, z: -0.000000019404723, w: 0.86602515}
-  m_LocalPosition: {x: 0, y: 0, z: 91}
+  m_LocalRotation: {x: 0.3826841, y: 0.00000004085927, z: -0.000000024951381, w: 0.92387927}
+  m_LocalPosition: {x: 0, y: 0, z: 85.6}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3428,7 +3428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 37.5, y: 10.5}
+  m_AnchoredPosition: {x: 37.5, y: 10.9}
   m_SizeDelta: {x: 809.6802, y: 168.8148}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &525251140
@@ -15661,9 +15661,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844028811}
-  m_LocalRotation: {x: 0.70710677, y: -0.000000029802326, z: 0.0000000070508426, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -8.25}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalRotation: {x: 0.3826837, y: -0.000000030232005, z: -0.00000000489072, w: 0.9238795}
+  m_LocalPosition: {x: 0, y: 0, z: 75.93}
+  m_LocalScale: {x: 0.084663644, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2061374233}
@@ -15673,7 +15673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 38, y: 2}
+  m_AnchoredPosition: {x: 37.999996, y: 14.79}
   m_SizeDelta: {x: 1587.8452, y: 222.5022}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &862397104
@@ -16860,7 +16860,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh1119428
+  m_Name: pb_Mesh2899182
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30339,7 +30339,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh1119210
+  m_Name: pb_Mesh2898964
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -46394,14 +46394,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414267785}
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 38, y: 85.8, z: -20}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 38, y: 85.8, z: -32.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!114 &1414267789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46417,12 +46417,12 @@ MonoBehaviour:
   panSpeed: 30
   panBoarderThickness: 10
   scrollSpeed: 5
-  scrminY: 10
+  scrminY: 25
   scrmaxY: 80
-  minZ: -10
-  maxZ: 50
-  minX: 25
-  maxX: 55
+  minZ: -25
+  maxZ: 45
+  minX: 0
+  maxX: 70
 --- !u!1001 &1416024622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49968,23 +49968,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - enemy: {fileID: 5549841466267720153, guid: 26f7ae2f160a77341b0b5cd0a8ee7fae, type: 3}
-    count: 3
-    rate: 2
   - enemy: {fileID: 2766520990056341028, guid: b4a79bd2a2c960f4f8f45e4014978a83, type: 3}
     count: 5
     rate: 2
-  - enemy: {fileID: 6867622135693812434, guid: 23f907c94ad92894495c02b43a563c6f, type: 3}
-    count: 3
-    rate: 2
-  - enemy: {fileID: 7602253016692154095, guid: 44e8f72fb59c89f44a030e42f76e7c84, type: 3}
-    count: 2
-    rate: 1
+  - enemy: {fileID: 3093505139094036916, guid: 8b0a34c978515f444a2b020f369f72af, type: 3}
+    count: 10
+    rate: 3
   - enemy: {fileID: 4609299586096946384, guid: ff4fec1f407489540a1d74a294ded0b5, type: 3}
     count: 2
     rate: 1
+  - enemy: {fileID: 3928985337801053941, guid: 2686dfb5bc4d4f84d9385ae0fade2cce, type: 3}
+    count: 15
+    rate: 1
+  - enemy: {fileID: 1213576060540641633, guid: d22a984bb866acf4c9bb1196e4829304, type: 3}
+    count: 15
+    rate: 1
+  - enemy: {fileID: 4609299586096946384, guid: ff4fec1f407489540a1d74a294ded0b5, type: 3}
+    count: 3
+    rate: 1
+  - enemy: {fileID: 2766520990056341028, guid: b4a79bd2a2c960f4f8f45e4014978a83, type: 3}
+    count: 10
+    rate: 1
+  - enemy: {fileID: 6867622135693812434, guid: 23f907c94ad92894495c02b43a563c6f, type: 3}
+    count: 1
+    rate: 1
   spawnPoint: {fileID: 1853759193}
-  timeBetweenWaves: 3
+  timeBetweenWaves: 5
   waveCountdownText: {fileID: 1537117659}
   gameManager: {fileID: 1755470280}
 --- !u!4 &1755470276
@@ -50029,8 +50038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00293bf2b53f704badd3fcd98c7433f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 10000
-  startLives: 1
+  startMoney: 1800
+  startLives: 10
 --- !u!114 &1755470280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50717,7 +50726,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh1120714
+  m_Name: pb_Mesh2900472
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -64777,7 +64786,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a1dc6bc64fac6c84ebccd305694e6371, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4644659776789881848}
   m_Layer: 0
   m_Name: Ballista_4
-  m_TagString: Untagged
+  m_TagString: BallistaTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,6 +59,11 @@ MonoBehaviour:
   partToRotate: {fileID: 3015418819876751353}
   turnSpeed: 10
   firePoint: {fileID: 5898878259342649018}
+  archerShoot: {fileID: 0}
+  balistaShoot: {fileID: 0}
+  cannonShoot: {fileID: 0}
+  poisonShoot: {fileID: 0}
+  wizardShoot: {fileID: 0}
 --- !u!1 &1609937398612685456
 GameObject:
   m_ObjectHideFlags: 0

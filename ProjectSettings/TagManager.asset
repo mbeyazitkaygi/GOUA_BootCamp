@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - ArcherTower
+  - BallistaTower
+  - CannonTower
+  - PoisonTower
+  - WizardTower
   layers:
   - Default
   - TransparentFX

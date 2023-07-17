@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6625217819353684859}
   m_Layer: 0
   m_Name: Poison_1
-  m_TagString: Untagged
+  m_TagString: PoisonTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 0}
   fireRate: 1
   useLaser: 1
-  damageOverTime: 30
+  damageOverTime: 20
   slowAmount: 0.5
   lineRenderer: {fileID: 6625217819353684859}
   impactEffect: {fileID: 3386960477707686247}

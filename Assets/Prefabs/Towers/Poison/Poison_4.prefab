@@ -9938,7 +9938,7 @@ GameObject:
   - component: {fileID: 3717010426989312697}
   m_Layer: 0
   m_Name: Poison_4
-  m_TagString: Untagged
+  m_TagString: PoisonTower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9978,7 +9978,7 @@ MonoBehaviour:
   fireRate: 1
   useLaser: 1
   damageOverTime: 30
-  slowAmount: 0.5
+  slowAmount: 0.7
   lineRenderer: {fileID: 3717010426989312697}
   impactEffect: {fileID: 4255973897128911936}
   impactLight: {fileID: 1338983890806886679}

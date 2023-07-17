@@ -28,6 +28,9 @@ public class Turretmbk : MonoBehaviour
     public Transform partToRotate;
     public float turnSpeed = 10f;
     public Transform firePoint;
+
+
+
     // Use this for initialization
     void Start()
     {
@@ -56,6 +59,11 @@ public class Turretmbk : MonoBehaviour
         else
         {
             target = null;
+
+            if (gameObject.CompareTag("PoisonTower"))
+            {
+                FindAnyObjectByType<AudioManager>().Stop("PoisonShootSound");
+            }
         }
     }
     // Update is called once per frame
@@ -106,6 +114,12 @@ public class Turretmbk : MonoBehaviour
         {
             lineRenderer.enabled = true;
             impactEffect.Play();
+
+            if (gameObject.CompareTag("PoisonTower"))
+            {
+                FindAnyObjectByType<AudioManager>().Play("PoisonShootSound");
+            }
+
             impactLight.enabled = true;
         }
         lineRenderer.SetPosition(0, firePoint.position);
@@ -114,12 +128,33 @@ public class Turretmbk : MonoBehaviour
         impactEffect.transform.position = target.position + dir.normalized;
         impactEffect.transform.rotation = Quaternion.LookRotation(dir);
     }
+
     void Shoot()
     {
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
         if (bullet != null)
             bullet.Seek(target);
+
+        if (gameObject.CompareTag("ArcherTower"))
+        {
+            FindAnyObjectByType<AudioManager>().Play("ArcherShootSound");
+        }
+
+        if (gameObject.CompareTag("WizardTower"))
+        {
+            FindAnyObjectByType<AudioManager>().Play("WizardShootSound");
+        }
+
+        if (gameObject.CompareTag("CannonTower"))
+        {
+            FindAnyObjectByType<AudioManager>().Play("CannonShootSound");
+        }
+
+        if (gameObject.CompareTag("BallistaTower"))
+        {
+            FindAnyObjectByType<AudioManager>().Play("BallistaShootSound");
+        }
     }
     void OnDrawGizmosSelected()
     {
