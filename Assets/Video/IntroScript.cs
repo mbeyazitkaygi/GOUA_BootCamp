@@ -7,51 +7,81 @@ using UnityEngine.Video;
 
 public class IntroScript : MonoBehaviour
 {
-    public VideoPlayer videoPlayer;
+    public float delayBeforeSkip = 6f;
     public Button skipButton;
+    public VideoPlayer videoPlayer;
+    public AudioClip audioClip;
+    
+    private bool isVideoFinished;
+    private bool isAudioFinished;
 
-    private float videoDuration;
-    private bool videoFinished = false;
+    private float elapsedTime;
+
+    private AudioSource audioSource;
 
     private void Start()
     {
-        // Hide the skip button at the start
+        // Hide the skip button initially
         skipButton.gameObject.SetActive(false);
 
-        // Play the video
+        // Start playing the video
         videoPlayer.Play();
 
-        // Get the video duration
-        videoDuration = (float)videoPlayer.length;
+        // Start tracking the elapsed time
+        elapsedTime = 0f;
 
-        // Delay the appearance of the skip button by 5 seconds
-        Invoke("ShowSkipButton", 5f);
-    }
+        // Subscribe to video completion event
+        videoPlayer.loopPointReached += OnVideoFinished;
 
-    private void ShowSkipButton()
-    {
-        skipButton.gameObject.SetActive(true);
-    }
-
-    public void SkipIntro()
-    {
-        // Only skip the intro if the video has finished playing
-        if (videoFinished)
-        {
-            // Stop the video
-            videoPlayer.Stop();
-
-            // Load the Level01 scene
-            SceneManager.LoadScene("Level01");
-        }
+        // Create and configure the AudioSource component
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.clip = audioClip;
     }
 
     private void Update()
     {
-        // Check if the video has finished playing
-        if (!videoFinished && videoPlayer.time >= videoDuration)
+        // Increment the elapsed time
+        elapsedTime += Time.deltaTime;
+
+        // Show the skip button if enough time has passed
+        if (elapsedTime >= delayBeforeSkip)
         {
-            videoFinished = true;
+            skipButton.gameObject.SetActive(true);
         }
+
+        // Check if both video and audio have finished playing
+        if ((isVideoFinished && !audioSource.isPlaying) || isAudioFinished)
+        {
+            // Load the 1st scene (scene index 1 in the build settings)
+            SceneManager.LoadScene(1);
+        }
+    }
+
+    public void SkipScene()
+    {
+        // Stop playing the video (optional)
+        videoPlayer.Stop();
+
+        // Stop playing the audio (optional)
+        audioSource.Stop();
+
+        // Load the 1st scene (scene index 1 in the build settings)
+        SceneManager.LoadScene(1);
+    }
+
+    private void OnVideoFinished(VideoPlayer vp)
+    {
+        // Video has finished playing
+        isVideoFinished = true;
+
+        // Play the audio clip
+        audioSource.Play();
+    }
+
+    private void OnAudioFinished()
+    {
+        // Audio has finished playing
+        isAudioFinished = true;
     }
 }
